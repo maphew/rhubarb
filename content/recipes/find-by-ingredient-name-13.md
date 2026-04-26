@@ -2,67 +2,67 @@
 title: Find by ingredient name
 era: static
 collection: recipes
-sourceUrl: "http://www.rhubarbinfo.com:80/recipe/bying"
-archivedAt: "2014-10-05T23:19:25Z"
-waybackTimestamp: "20141005231925"
+sourceUrl: "http://rhubarbinfo.com/recipe/bying/9"
+archivedAt: "2014-07-01T12:59:26Z"
+waybackTimestamp: "20140701125926"
 ---
 
 ## Navigation
 
-- [About](http://www.rhubarbinfo.com:80/about "About")
-- [Table Of Contents](http://www.rhubarbinfo.com:80/maincontents "Table Of Contents")
-  - [Rhubarb History](http://www.rhubarbinfo.com:80/history "Rhubarb History")
-  - [Botanical Information](http://www.rhubarbinfo.com:80/botanical "Rhubarb Botanical Information")
-    - [Rhubarb Species](http://www.rhubarbinfo.com:80/species "Rhubarb Species")
-    - [Rhubarb Varieties](http://www.rhubarbinfo.com:80/varieties)
-    - [Things that are not rhubarb](http://www.rhubarbinfo.com:80/not-rhubarb "Things that are not rhubarb")
-    - [Rhubarb Sources](http://www.rhubarbinfo.com:80/sources "Rhubarb Sources")
-  - [Rhubarb Festivals](http://www.rhubarbinfo.com:80/festivals "Rhubarb Festivals")
-  - [Growing Rhubarb](http://www.rhubarbinfo.com:80/growing "Growing Rhubarb")
-    - [Forcing Rhubarb](http://www.rhubarbinfo.com:80/forcing "Forcing Rhubarb")
-    - [Propagating Rhubarb](http://www.rhubarbinfo.com:80/propagating "Propagating Rhubarb")
-    - [Composting Rhubarb](http://www.rhubarbinfo.com:80/composting "Composting Rhubarb")
-    - [Growing from seeds](http://www.rhubarbinfo.com:80/fromseed "Growing Rhubarb from Seed")
-    - [Rhubarb Seedpods](http://www.rhubarbinfo.com:80/seedpods "Rhubarb Seedpods")
-  - [Culinary Uses](http://www.rhubarbinfo.com:80/culinary "Culinary uses of Rhubarb")
-    - [Nutritional Information](http://www.rhubarbinfo.com:80/nutritional "Nutritional Information")
-  - [Medicinal Rhubarb](http://www.rhubarbinfo.com:80/medicinal "Medicinal uses of Rhubarb")
-  - [Other Uses](http://www.rhubarbinfo.com:80/other "Other uses for Rhubarb")
-  - [Poison Information](http://www.rhubarbinfo.com:80/poison "Poison Information")
-- [Rhubarb Recipes](http://www.rhubarbinfo.com:80/recipes "Rhubarb Recipes")
-  - [Rhubarb Bars](http://www.rhubarbinfo.com:80/bar)
-  - [Rhubarb Bread](http://www.rhubarbinfo.com:80/bread "Rhubarb Bread")
-  - [Rhubarb Cakes](http://www.rhubarbinfo.com:80/cake "Rhubarb Cakes")
-  - [Rhubarb Cobbler](http://www.rhubarbinfo.com:80/cobbler "Rhubarb Cobbler")
-  - [Rhubarb Cookies](http://www.rhubarbinfo.com:80/cookie "Rhubarb Cookies")
-  - [Rhubarb Desserts](http://www.rhubarbinfo.com:80/dessert "Rhubarb Desserts")
-  - [Rhubarb Drinks](http://www.rhubarbinfo.com:80/drinks "Rhubarb Drinks")
-  - [Frozen Rhubarb](http://www.rhubarbinfo.com:80/frozen "Frozen Rhubarb")
-  - [Rhubarb Jam](http://www.rhubarbinfo.com:80/jam "Rhubarb Jam")
-  - [Rhubarb Muffins](http://www.rhubarbinfo.com:80/muffin "Rhubarb Muffins")
-  - [Rhubarb Pickles](http://www.rhubarbinfo.com:80/pickles "Rhubarb Pickles")
-  - [Rhubarb Pie](http://www.rhubarbinfo.com:80/pie "Rhubarb Pie")
-  - [Rhubarb Pudding](http://www.rhubarbinfo.com:80/pudding "Rhubarb Pudding")
-  - [Rhubarb Salad](http://www.rhubarbinfo.com:80/salad "Rhubarb Salad")
-  - [Rhubarb Sauce](http://www.rhubarbinfo.com:80/sauce "Rhubarb Sauce")
-  - [Star Trek Rhubarb](http://www.rhubarbinfo.com:80/startrek "Star Trek Rhubarb")
-  - [Rhubarb Soup](http://www.rhubarbinfo.com:80/soup "Rhubarb Soup")
-  - [Rhubarb Tarts](http://www.rhubarbinfo.com:80/tart "Rhubarb Tarts")
-  - [Rhubarb Wine](http://www.rhubarbinfo.com:80/wine "Rhubarb Wine")
-  - [Chicken with Rhubarb](http://www.rhubarbinfo.com:80/chicken "Chicken with Rhubarb")
-  - [Fish with Rhubarb](http://www.rhubarbinfo.com:80/fish "Fish with Rhubarb")
-  - [Pork with Rhubarb](http://www.rhubarbinfo.com:80/pork "Pork with Rhubarb")
-  - [Rhubarb Stuff](http://www.rhubarbinfo.com:80/stuff "Rhubarb Stuff")
-- [Color Poll](http://www.rhubarbinfo.com:80/color_poll "I prefer my rhubarb")
-- [Recipes](http://www.rhubarbinfo.com:80/recipe)
-  - [By name](http://www.rhubarbinfo.com:80/recipe/byname "Find individual recipes by name.")
-  - [By category](http://www.rhubarbinfo.com:80/recipe/bycat "Find individual recipes by using the category list.")
-  - [By ingredient](http://www.rhubarbinfo.com:80/recipe/bying "Find individual recipes by their ingredients.")
-- [Friends](http://www.rhubarbinfo.com:80/friends "Friends of the rhubarb compendium")
+- [About](http://rhubarbinfo.com/about "About")
+- [Table Of Contents](http://rhubarbinfo.com/maincontents "Table Of Contents")
+  - [Rhubarb History](http://rhubarbinfo.com/history "Rhubarb History")
+  - [Botanical Information](http://rhubarbinfo.com/botanical "Rhubarb Botanical Information")
+    - [Rhubarb Species](http://rhubarbinfo.com/species "Rhubarb Species")
+    - [Rhubarb Varieties](http://rhubarbinfo.com/varieties)
+    - [Things that are not rhubarb](http://rhubarbinfo.com/not-rhubarb "Things that are not rhubarb")
+    - [Rhubarb Sources](http://rhubarbinfo.com/sources "Rhubarb Sources")
+  - [Rhubarb Festivals](http://rhubarbinfo.com/festivals "Rhubarb Festivals")
+  - [Growing Rhubarb](http://rhubarbinfo.com/growing "Growing Rhubarb")
+    - [Forcing Rhubarb](http://rhubarbinfo.com/forcing "Forcing Rhubarb")
+    - [Propagating Rhubarb](http://rhubarbinfo.com/propagating "Propagating Rhubarb")
+    - [Composting Rhubarb](http://rhubarbinfo.com/composting "Composting Rhubarb")
+    - [Growing from seeds](http://rhubarbinfo.com/fromseed "Growing Rhubarb from Seed")
+    - [Rhubarb Seedpods](http://rhubarbinfo.com/seedpods "Rhubarb Seedpods")
+  - [Culinary Uses](http://rhubarbinfo.com/culinary "Culinary uses of Rhubarb")
+    - [Nutritional Information](http://rhubarbinfo.com/nutritional "Nutritional Information")
+  - [Medicinal Rhubarb](http://rhubarbinfo.com/medicinal "Medicinal uses of Rhubarb")
+  - [Other Uses](http://rhubarbinfo.com/other "Other uses for Rhubarb")
+  - [Poison Information](http://rhubarbinfo.com/poison "Poison Information")
+- [Rhubarb Recipes](http://rhubarbinfo.com/recipes "Rhubarb Recipes")
+  - [Rhubarb Bars](http://rhubarbinfo.com/bar)
+  - [Rhubarb Bread](http://rhubarbinfo.com/bread "Rhubarb Bread")
+  - [Rhubarb Cakes](http://rhubarbinfo.com/cake "Rhubarb Cakes")
+  - [Rhubarb Cobbler](http://rhubarbinfo.com/cobbler "Rhubarb Cobbler")
+  - [Rhubarb Cookies](http://rhubarbinfo.com/cookie "Rhubarb Cookies")
+  - [Rhubarb Desserts](http://rhubarbinfo.com/dessert "Rhubarb Desserts")
+  - [Rhubarb Drinks](http://rhubarbinfo.com/drinks "Rhubarb Drinks")
+  - [Frozen Rhubarb](http://rhubarbinfo.com/frozen "Frozen Rhubarb")
+  - [Rhubarb Jam](http://rhubarbinfo.com/jam "Rhubarb Jam")
+  - [Rhubarb Muffins](http://rhubarbinfo.com/muffin "Rhubarb Muffins")
+  - [Rhubarb Pickles](http://rhubarbinfo.com/pickles "Rhubarb Pickles")
+  - [Rhubarb Pie](http://rhubarbinfo.com/pie "Rhubarb Pie")
+  - [Rhubarb Pudding](http://rhubarbinfo.com/pudding "Rhubarb Pudding")
+  - [Rhubarb Salad](http://rhubarbinfo.com/salad "Rhubarb Salad")
+  - [Rhubarb Sauce](http://rhubarbinfo.com/sauce "Rhubarb Sauce")
+  - [Star Trek Rhubarb](http://rhubarbinfo.com/startrek "Star Trek Rhubarb")
+  - [Rhubarb Soup](http://rhubarbinfo.com/soup "Rhubarb Soup")
+  - [Rhubarb Tarts](http://rhubarbinfo.com/tart "Rhubarb Tarts")
+  - [Rhubarb Wine](http://rhubarbinfo.com/wine "Rhubarb Wine")
+  - [Chicken with Rhubarb](http://rhubarbinfo.com/chicken "Chicken with Rhubarb")
+  - [Fish with Rhubarb](http://rhubarbinfo.com/fish "Fish with Rhubarb")
+  - [Pork with Rhubarb](http://rhubarbinfo.com/pork "Pork with Rhubarb")
+  - [Rhubarb Stuff](http://rhubarbinfo.com/stuff "Rhubarb Stuff")
+- [Color Poll](http://rhubarbinfo.com/color_poll "I prefer my rhubarb")
+- [Recipes](http://rhubarbinfo.com/recipe)
+  - [By name](http://rhubarbinfo.com/recipe/byname "Find individual recipes by name.")
+  - [By category](http://rhubarbinfo.com/recipe/bycat "Find individual recipes by using the category list.")
+  - [By ingredient](http://rhubarbinfo.com/recipe/bying "Find individual recipes by their ingredients.")
+- [Friends](http://rhubarbinfo.com/friends "Friends of the rhubarb compendium")
 
 ## Got Rhubarb?
 
-Get your Rhubarb T-shirt now! [![Got Rhubarb?](/_assets/f3c8251171a45d9c.png)](http://www.cafepress.com/rhubarbinfo)
+Get your Rhubarb T-shirt now! [![Got Rhubarb?](/_assets/a819d25a1a18a140.png)](http://www.cafepress.com/rhubarbinfo)
 
 ## I Recommend
 
@@ -72,81 +72,39 @@ Get your Rhubarb T-shirt now! [![Got Rhubarb?](/_assets/f3c8251171a45d9c.png)](h
 
 ## Tag Cloud
 
-[drink](http://www.rhubarbinfo.com:80/taxonomy/term/94)
-[table of contents](http://www.rhubarbinfo.com:80/taxonomy/term/89)
-[roots](http://www.rhubarbinfo.com:80/taxonomy/term/97)
-[tarts](http://www.rhubarbinfo.com:80/taxonomy/term/109)
-[poison](http://www.rhubarbinfo.com:80/taxonomy/term/25)
-[botanical](http://www.rhubarbinfo.com:80/taxonomy/term/1)
-[pink](http://www.rhubarbinfo.com:80/taxonomy/term/17)
-[stuff](http://www.rhubarbinfo.com:80/taxonomy/term/69)
-[cake](http://www.rhubarbinfo.com:80/taxonomy/term/34)
-[fertilizer](http://www.rhubarbinfo.com:80/taxonomy/term/45)
-[jam](http://www.rhubarbinfo.com:80/taxonomy/term/68)
-[festivals](http://www.rhubarbinfo.com:80/taxonomy/term/20)
-[chicken](http://www.rhubarbinfo.com:80/taxonomy/term/110)
-[desserts](http://www.rhubarbinfo.com:80/taxonomy/term/82)
-[growing](http://www.rhubarbinfo.com:80/taxonomy/term/41)
-[bread](http://www.rhubarbinfo.com:80/taxonomy/term/32)
-[pie](http://www.rhubarbinfo.com:80/taxonomy/term/57)
-[drinks](http://www.rhubarbinfo.com:80/taxonomy/term/65)
-[rhubarb](http://www.rhubarbinfo.com:80/taxonomy/term/3)
-[recipes](http://www.rhubarbinfo.com:80/taxonomy/term/33)
-[planting](http://www.rhubarbinfo.com:80/taxonomy/term/105)
-[rhubarb](http://www.rhubarbinfo.com:80/taxonomy/term/90)
-[cobbler](http://www.rhubarbinfo.com:80/taxonomy/term/60)
-[sauce](http://www.rhubarbinfo.com:80/taxonomy/term/62)
-[stalk color](http://www.rhubarbinfo.com:80/taxonomy/term/18)
-[salad](http://www.rhubarbinfo.com:80/taxonomy/term/61)
-[seedpods](http://www.rhubarbinfo.com:80/taxonomy/term/99)
-[seeds](http://www.rhubarbinfo.com:80/taxonomy/term/49)
-[propagating](http://www.rhubarbinfo.com:80/taxonomy/term/70)
-[pork](http://www.rhubarbinfo.com:80/taxonomy/term/112)
-[home](http://www.rhubarbinfo.com:80/taxonomy/term/101)
-[history](http://www.rhubarbinfo.com:80/taxonomy/term/2)
+[propagating](http://rhubarbinfo.com/taxonomy/term/70)
+[fertilizer](http://rhubarbinfo.com/taxonomy/term/45)
+[pickles](http://rhubarbinfo.com/taxonomy/term/106)
+[desserts](http://rhubarbinfo.com/taxonomy/term/82)
+[recipes](http://rhubarbinfo.com/taxonomy/term/33)
+[frozen](http://rhubarbinfo.com/taxonomy/term/83)
+[drinks](http://rhubarbinfo.com/taxonomy/term/65)
+[history](http://rhubarbinfo.com/taxonomy/term/2)
+[stuff](http://rhubarbinfo.com/taxonomy/term/69)
+[poison](http://rhubarbinfo.com/taxonomy/term/25)
+[drink](http://rhubarbinfo.com/taxonomy/term/94)
+[bars](http://rhubarbinfo.com/taxonomy/term/30)
+[salad](http://rhubarbinfo.com/taxonomy/term/61)
+[growing](http://rhubarbinfo.com/taxonomy/term/41)
+[rhubarb](http://rhubarbinfo.com/taxonomy/term/90)
+[sources](http://rhubarbinfo.com/taxonomy/term/96)
+[species](http://rhubarbinfo.com/taxonomy/term/7)
+[table of contents](http://rhubarbinfo.com/taxonomy/term/89)
+[dessert](http://rhubarbinfo.com/taxonomy/term/92)
+[rhubarb](http://rhubarbinfo.com/taxonomy/term/3)
+[pink](http://rhubarbinfo.com/taxonomy/term/17)
+[roots](http://rhubarbinfo.com/taxonomy/term/97)
+[stalk color](http://rhubarbinfo.com/taxonomy/term/18)
+[cake](http://rhubarbinfo.com/taxonomy/term/34)
+[home](http://rhubarbinfo.com/taxonomy/term/101)
+[pie](http://rhubarbinfo.com/taxonomy/term/57)
+[botanical](http://rhubarbinfo.com/taxonomy/term/1)
+[chicken](http://rhubarbinfo.com/taxonomy/term/110)
+[seeds](http://rhubarbinfo.com/taxonomy/term/49)
+[planting](http://rhubarbinfo.com/taxonomy/term/105)
+[green](http://rhubarbinfo.com/taxonomy/term/16)
+[bread](http://rhubarbinfo.com/taxonomy/term/32)
 
-[more tags](http://www.rhubarbinfo.com:80/tagadelic/chunk/2)
+[more tags](http://rhubarbinfo.com/tagadelic/chunk/2)
 
 # Find by ingredient name
-
-a - [B](http://www.rhubarbinfo.com:80/recipe/bying#alpha_b) - [C](http://www.rhubarbinfo.com:80/recipe/bying#alpha_c) - d - [E](http://www.rhubarbinfo.com:80/recipe/bying#alpha_e) - [F](http://www.rhubarbinfo.com:80/recipe/bying#alpha_f) - [G](http://www.rhubarbinfo.com:80/recipe/bying#alpha_g) - h - i - j - k - [L](http://www.rhubarbinfo.com:80/recipe/bying#alpha_l) - [M](http://www.rhubarbinfo.com:80/recipe/bying#alpha_m) - n - o - p - q - [R](http://www.rhubarbinfo.com:80/recipe/bying#alpha_r) - [S](http://www.rhubarbinfo.com:80/recipe/bying#alpha_s) - t - u - v - w - x - y - z
-
-B
-
-[Butter](http://www.rhubarbinfo.com:80/recipe/bying/10)
-
-C
-
-[cheese](http://www.rhubarbinfo.com:80/recipe/bying/7)  
-[Confectioners sugar](http://www.rhubarbinfo.com:80/recipe/bying/13)
-
-E
-
-[eggs](http://www.rhubarbinfo.com:80/recipe/bying/2)
-
-F
-
-[Flour](http://www.rhubarbinfo.com:80/recipe/bying/8)
-
-G
-
-[green stuff](http://www.rhubarbinfo.com:80/recipe/bying/1)
-
-L
-
-[Lemon zest](http://www.rhubarbinfo.com:80/recipe/bying/11)
-
-M
-
-[milk](http://www.rhubarbinfo.com:80/recipe/bying/5)
-
-R
-
-[Raspberries](http://www.rhubarbinfo.com:80/recipe/bying/12)  
-[rhubarb](http://www.rhubarbinfo.com:80/recipe/bying/4)
-
-S
-
-[salt](http://www.rhubarbinfo.com:80/recipe/bying/6)  
-[spices](http://www.rhubarbinfo.com:80/recipe/bying/3)  
-[Sugar](http://www.rhubarbinfo.com:80/recipe/bying/9)

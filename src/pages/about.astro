@@ -1,61 +1,113 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="About this archive">
-  <h1>About this archive</h1>
+<BaseLayout title="About">
+  <h1>About</h1>
+
   <p>
-    <strong>www.rhubarbinfo.com</strong> — “The Rhubarb Compendium” —
-    was a long-running site devoted to rhubarb in all its forms: recipes,
-    growing tips, varieties, history, and the kind of folk knowledge that
-    only accretes when one person tends one corner of the web for a long
-    time. After 2024-10-23 the domain stopped resolving as expected and
-    is now a casino-redirect squat.
+    <strong>The Rhubarb Compendium</strong> was a labour of love by
+    <strong>Dan Eisenreich</strong>, started in 1994 and tended for three
+    decades across three platforms (hand-written HTML on FreeServers, a
+    Drupal site, and finally a Blogger blog). It collected recipes, growing
+    advice, varieties, history, medicinal lore, and the kind of folk
+    knowledge that only accretes when one person tends one corner of the
+    web for a long time.
   </p>
 
   <p>
-    This site is a non-commercial preservation effort. Every page here is
-    a clean re-render of an
-    <a href="https://web.archive.org/web/2024*/rhubarbinfo.com">Internet Archive</a>
-    snapshot, with the original URL and archive timestamp linked at the top of
-    each entry. Where Wayback held a snapshot for an image, that image was
-    pulled at the snapshot closest to the page; nothing here is fabricated.
+    After 2024-10-23 the <code>rhubarbinfo.com</code> domain stopped
+    serving the site and is now a casino-redirect squat. This is a
+    non-commercial preservation effort, rebuilt page-by-page from
+    <a href="https://web.archive.org/web/2024*/rhubarbinfo.com">Internet
+    Archive</a> snapshots.
   </p>
+
+  <h2>License</h2>
+  <p>
+    The Rhubarb Compendium is licensed under a
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative
+    Commons Attribution-Share Alike 3.0 United States License</a>
+    (CC&nbsp;BY-SA&nbsp;3.0&nbsp;US) — the license Dan applied to the site
+    himself. That license explicitly permits redistribution, including
+    commercially, provided the work is attributed and shared under the
+    same terms. This rescue follows that license:
+  </p>
+  <ul>
+    <li><strong>Attribution:</strong> every page links back to its
+        original URL on <code>rhubarbinfo.com</code> and the
+        Wayback snapshot it was rebuilt from.</li>
+    <li><strong>Share-alike:</strong> the rescued content is published
+        here under the same CC&nbsp;BY-SA&nbsp;3.0&nbsp;US license.</li>
+  </ul>
+
+  <p>
+    From Dan's own words on the original about page:
+  </p>
+  <blockquote>
+    <p>
+      I have found many recipes on the internet that are marked with a
+      copyright notice. A word about copyright of recipes from the US
+      copyright office:
+    </p>
+    <p>
+      … "Several categories of material are generally not eligible for
+      statutory copyright protection. These include among others: […]
+      Ideas, procedures, methods, systems, processes, concepts,
+      principles, discoveries, or devices" …
+    </p>
+    <p>
+      It seems clear to me that recipes (regardless of their origin) are
+      "procedures, methods, or processes" and as such you are free to
+      copy and use the recipes included in this document (or anywhere
+      else for that matter) as you see fit.
+    </p>
+  </blockquote>
 
   <h2>How it was rebuilt</h2>
   <ul>
     <li>The Wayback CDX API was used to enumerate every captured URL on
-        <code>rhubarbinfo.com</code> with HTTP 200 status before 2024-10-24.</li>
-    <li>For each unique URL, the latest snapshot was fetched via
-        <code>web.archive.org/web/&lt;ts&gt;id_/&lt;url&gt;</code> (the
-        <code>id_</code> flag returns the unmodified original bytes).</li>
-    <li>HTML was parsed and converted to Markdown, preserving the body
-        content while stripping site-chrome and Blogger / Drupal infrastructure.</li>
-    <li>External images (Blogger CDN) were re-fetched via Wayback
-        closest-snapshot and re-hosted alongside the text.</li>
-    <li>The whole pipeline lives in <code>tools/</code> in the
-        <a href="https://github.com/maphew/rhubarb">source repository</a>
-        — the rescue is reproducible.</li>
+        <code>rhubarbinfo.com</code> with HTTP 200 status before
+        2024-10-24.</li>
+    <li>For each unique URL the latest pre-cutoff snapshot was fetched
+        via <code>web.archive.org/web/&lt;ts&gt;id_/&lt;url&gt;</code>
+        — the <code>id_</code> flag returns the unmodified original
+        bytes.</li>
+    <li>HTML was parsed and converted to Markdown, preserving body
+        content while stripping site-chrome and CMS infrastructure.</li>
+    <li>Off-site images (Blogger CDN) were re-fetched via Wayback's
+        closest-snapshot API, with a fall-back to the live CDN, and
+        re-hosted alongside the text.</li>
+    <li>SEO spam injected into compromised Drupal nodes around
+        2010-2012 was filtered out at extraction time. The full
+        pipeline lives in <code>tools/</code> in the
+        <a href="https://github.com/maphew/rhubarb">source
+        repository</a> — the rescue is reproducible.</li>
   </ul>
 
   <h2>Three eras</h2>
-  <p>
-    The captured snapshots span three eras of the site:
-  </p>
   <ul>
-    <li><strong>Static (2000-2006)</strong> — pre-CMS HTML hosted on
-        FreeServers / Tripod. Most surviving pages from this era are
-        bookstore links and some early recipes.</li>
-    <li><strong>Drupal (2007-2020)</strong> — “The Rhubarb Compendium” on
-        Drupal, with deep recipe taxonomy and category pages.</li>
-    <li><strong>Blogger (2019-2024)</strong> — the final incarnation,
-        with cleaner long-form articles and the most recent edits.</li>
+    <li><strong>Static (1994-2006)</strong> — hand-written HTML hosted
+        on FreeServers / Tripod. The original incarnation.</li>
+    <li><strong>Drupal (~2007-2018)</strong> — "The Rhubarb Compendium"
+        on Drupal, with deep recipe taxonomy and category pages.</li>
+    <li><strong>Blogger (2019-2024)</strong> — the final incarnation.
+        Cleaner long-form articles and the most recent edits, likely
+        a clean restart away from the by-then-compromised Drupal
+        install.</li>
   </ul>
 
-  <h2>Credit</h2>
+  <h2>Contact</h2>
   <p>
-    All credit for the original content belongs to the original author(s)
-    of <code>www.rhubarbinfo.com</code>. If you are the original author and
-    would like attribution updated or content removed, please open an issue
-    on <a href="https://github.com/maphew/rhubarb">github.com/maphew/rhubarb</a>.
+    If you are Dan, family of Dan, or otherwise hold rights to this
+    content and would like attribution updated, the rescue tweaked, or
+    anything removed: please open an issue at
+    <a href="https://github.com/maphew/rhubarb">github.com/maphew/rhubarb</a>.
+  </p>
+
+  <p>
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">
+      <img src={`${import.meta.env.BASE_URL}_assets/271ccae44b38b2ff.png`}
+           alt="Creative Commons License" />
+    </a>
   </p>
 </BaseLayout>

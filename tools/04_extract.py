@@ -60,6 +60,56 @@ PARKING_PHRASES = (
 # /bookstore/* are 2001-era Amazon affiliate pages — pure affiliate noise.
 SKIP_URL_RE = re.compile(r"/bookstore/", re.I)
 
+# SEO spam injected into compromised Drupal nodes around 2010-2012.
+# Wayback captured the spam, so we filter at extraction time.
+SPAM_TITLE_RE = re.compile(
+    r"(?i)\b("
+    r"louis vuitton|hermes (?:birkin|outlet|bags?)|mulberry (?:bags?|handbags?|hobo|mitzy|uk)|"
+    r"nike (?:air max|air jordan|nfl|mercurial|free run)|air jordan|nike-air-(?:max|jordan)|"
+    r"oakley sunglasses|polo (?:shirts?|outlet|ralph lauren)|ralph lauren|"
+    r"rolex (?:daytona|replica)|replica watch(?:es)?|chopard replica|iwc replica|"
+    r"hostgator|wordpress hosting|magento (?:web )?hosting|amazon web hosting|"
+    r"windows vps|vps hosting|web hosting (?:provider|coupons?)|"
+    r"nfl jerseys?|mlb jerseys?|throwback jerseys?|"
+    r"wedding (?:dress(?:es)?|gowns?)|empire waist wedding|mermaid wedding|bridal gowns?|"
+    r"ugg boots?|supra (?:skate )?shoes?|coach outlet|beats by dre|"
+    r"longchamp|cafepress|"
+    r"office 2007|office 2010|microsoft office|"
+    r"chicharito|whc addicted|liposuction|"
+    r"discount (?:wedding|polo)|cheap (?:polo|football|rolex|nike|nfl|ralph lauren)|"
+    r"sac longchamp|ck underwear|football boots|"
+    r"birkin bag|hermes outlet"
+    r")\b"
+)
+
+# Drupal-style slugs for spam pages: "louis-vuitton-m56889-jvughw" etc.
+SPAM_SLUG_RE = re.compile(
+    r"(?i)\b("
+    r"louis-vuitton|hermes|mulberry|oakley|ralph-lauren|rolex|replica|"
+    r"hostgator|nike-air-(?:max|jordan)|nike-nfl|nike-mercurial|air-jordan|"
+    r"wedding-dress(?:es)?|wedding-gowns?|bridal-gowns?|"
+    r"ugg-boots?|coach-outlet|beats-by-dre|polo-shirts?|"
+    r"sac-longchamp|ck-underwear|liposuction|chicharito|whc-addicted|"
+    r"throwback-jerseys?|nfl-jerseys?|mlb-jerseys?"
+    r")\b"
+)
+
+
+def looks_like_spam(title: str, slug: str, body_text: str) -> bool:
+    """Detect SEO spam injected into compromised Drupal nodes."""
+    if SPAM_TITLE_RE.search(title) or SPAM_SLUG_RE.search(slug):
+        return True
+    bt = body_text.lower()
+    rhubarb_hits = bt.count("rhubarb")
+    # The site is literally The Rhubarb Compendium — any non-trivial body that
+    # never says "rhubarb" once is a hijacked node.
+    if rhubarb_hits == 0 and len(bt) > 200:
+        return True
+    spam_hits = len(SPAM_TITLE_RE.findall(bt))
+    if rhubarb_hits < 2 and spam_hits >= 3:
+        return True
+    return False
+
 
 @dataclass
 class Extracted:
@@ -257,6 +307,9 @@ def extract_one(html_path: Path, meta: dict) -> Extracted | None:
         return None
 
     title = title_from(soup, era)
+    coll_slug_preview = urllib.parse.urlsplit(base).path.strip("/").replace("/", "-")
+    if looks_like_spam(title, coll_slug_preview, txt):
+        return None
     description = (soup.find("meta", property="og:description") or {}).get("content", "") if soup.find("meta", property="og:description") else ""
     hero = (soup.find("meta", property="og:image") or {}).get("content", "") if soup.find("meta", property="og:image") else ""
     pub_date = parse_blogger_date(soup) if era == "blogger" else None

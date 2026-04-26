@@ -2,9 +2,9 @@
 title: Find by ingredient name
 era: static
 collection: recipes
-sourceUrl: "http://rhubarbinfo.com/recipe/bying/8"
-archivedAt: "2014-07-01T11:50:18Z"
-waybackTimestamp: "20140701115018"
+sourceUrl: "http://rhubarbinfo.com/recipe/bying/7"
+archivedAt: "2014-07-01T11:58:00Z"
+waybackTimestamp: "20140701115800"
 ---
 
 ## Navigation
@@ -72,38 +72,38 @@ Get your Rhubarb T-shirt now! [![Got Rhubarb?](/_assets/a819d25a1a18a140.png)](h
 
 ## Tag Cloud
 
-[pink](http://rhubarbinfo.com/taxonomy/term/17)
-[history](http://rhubarbinfo.com/taxonomy/term/2)
-[desserts](http://rhubarbinfo.com/taxonomy/term/82)
-[home](http://rhubarbinfo.com/taxonomy/term/101)
-[recipes](http://rhubarbinfo.com/taxonomy/term/33)
-[bread](http://rhubarbinfo.com/taxonomy/term/32)
-[growing](http://rhubarbinfo.com/taxonomy/term/41)
-[sources](http://rhubarbinfo.com/taxonomy/term/96)
-[drink](http://rhubarbinfo.com/taxonomy/term/94)
-[species](http://rhubarbinfo.com/taxonomy/term/7)
-[stalk color](http://rhubarbinfo.com/taxonomy/term/18)
 [frozen](http://rhubarbinfo.com/taxonomy/term/83)
-[bars](http://rhubarbinfo.com/taxonomy/term/30)
-[seeds](http://rhubarbinfo.com/taxonomy/term/49)
-[roots](http://rhubarbinfo.com/taxonomy/term/97)
-[table of contents](http://rhubarbinfo.com/taxonomy/term/89)
-[rhubarb](http://rhubarbinfo.com/taxonomy/term/3)
-[stuff](http://rhubarbinfo.com/taxonomy/term/69)
-[pickles](http://rhubarbinfo.com/taxonomy/term/106)
-[botanical](http://rhubarbinfo.com/taxonomy/term/1)
-[poison](http://rhubarbinfo.com/taxonomy/term/25)
-[pie](http://rhubarbinfo.com/taxonomy/term/57)
-[chicken](http://rhubarbinfo.com/taxonomy/term/110)
-[rhubarb](http://rhubarbinfo.com/taxonomy/term/90)
-[cake](http://rhubarbinfo.com/taxonomy/term/34)
 [salad](http://rhubarbinfo.com/taxonomy/term/61)
-[fertilizer](http://rhubarbinfo.com/taxonomy/term/45)
-[propagating](http://rhubarbinfo.com/taxonomy/term/70)
-[drinks](http://rhubarbinfo.com/taxonomy/term/65)
+[rhubarb](http://rhubarbinfo.com/taxonomy/term/3)
 [planting](http://rhubarbinfo.com/taxonomy/term/105)
-[green](http://rhubarbinfo.com/taxonomy/term/16)
 [dessert](http://rhubarbinfo.com/taxonomy/term/92)
+[table of contents](http://rhubarbinfo.com/taxonomy/term/89)
+[botanical](http://rhubarbinfo.com/taxonomy/term/1)
+[fertilizer](http://rhubarbinfo.com/taxonomy/term/45)
+[bars](http://rhubarbinfo.com/taxonomy/term/30)
+[stuff](http://rhubarbinfo.com/taxonomy/term/69)
+[drinks](http://rhubarbinfo.com/taxonomy/term/65)
+[home](http://rhubarbinfo.com/taxonomy/term/101)
+[drink](http://rhubarbinfo.com/taxonomy/term/94)
+[history](http://rhubarbinfo.com/taxonomy/term/2)
+[sources](http://rhubarbinfo.com/taxonomy/term/96)
+[propagating](http://rhubarbinfo.com/taxonomy/term/70)
+[cake](http://rhubarbinfo.com/taxonomy/term/34)
+[pickles](http://rhubarbinfo.com/taxonomy/term/106)
+[roots](http://rhubarbinfo.com/taxonomy/term/97)
+[pink](http://rhubarbinfo.com/taxonomy/term/17)
+[species](http://rhubarbinfo.com/taxonomy/term/7)
+[bread](http://rhubarbinfo.com/taxonomy/term/32)
+[desserts](http://rhubarbinfo.com/taxonomy/term/82)
+[pie](http://rhubarbinfo.com/taxonomy/term/57)
+[recipes](http://rhubarbinfo.com/taxonomy/term/33)
+[stalk color](http://rhubarbinfo.com/taxonomy/term/18)
+[poison](http://rhubarbinfo.com/taxonomy/term/25)
+[growing](http://rhubarbinfo.com/taxonomy/term/41)
+[rhubarb](http://rhubarbinfo.com/taxonomy/term/90)
+[chicken](http://rhubarbinfo.com/taxonomy/term/110)
+[green](http://rhubarbinfo.com/taxonomy/term/16)
+[seeds](http://rhubarbinfo.com/taxonomy/term/49)
 
 [more tags](http://rhubarbinfo.com/tagadelic/chunk/2)
 

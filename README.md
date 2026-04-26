@@ -1,11 +1,17 @@
 # The Rhubarb Compendium — archive rescue
 
-A non-commercial preservation rebuild of [www.rhubarbinfo.com][orig], whose
-domain went dark on 2024-10-23 and is now a casino redirect. Every page
-here is a clean re-render of an [Internet Archive][wb] snapshot.
+A preservation rebuild of [www.rhubarbinfo.com][orig], a 30-year labour of
+love by **Dan Eisenreich** (1994–2024) whose domain went dark on
+2024-10-23 and is now a casino redirect. Every page here is a clean
+re-render of an [Internet Archive][wb] snapshot.
+
+The original site was published under
+[CC BY-SA 3.0 US][cc] — this rescue follows the same license, with
+attribution and Wayback links preserved on every page.
 
 [orig]: https://web.archive.org/web/2024*/rhubarbinfo.com
 [wb]: https://web.archive.org/
+[cc]: http://creativecommons.org/licenses/by-sa/3.0/us/
 
 ## Layout
 
@@ -77,8 +83,7 @@ removed, please open an issue.
 
 ## License
 
-Pipeline code (`tools/`, `src/`) is released under the repository's `LICENSE`.
-The preserved content under `content/` retains its original copyright (whatever
-that may be) and is re-published here under the principle that allowing a
-deeply-loved community resource to vanish into a casino-domain squat is the
-worse outcome.
+- **Pipeline code** (`tools/`, `src/`) — see the repository's `LICENSE`.
+- **Preserved content** (`content/`, `public/_assets/`) — by Dan Eisenreich,
+  redistributed here under the original
+  [CC BY-SA 3.0 US][cc] license that he applied to the site.
