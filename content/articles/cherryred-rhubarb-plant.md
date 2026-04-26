@@ -5,11 +5,9 @@ collection: articles
 sourceUrl: "http://rhubarbinfo.com/cherryred_rhuarb_plant"
 archivedAt: "2013-11-02T05:15:26Z"
 waybackTimestamp: "20131102051526"
-cleanupReason: photo-stub
-originalCollection: articles
 ---
 
-![CherryRed Rhubarb Plant](http://www.rhubarbinfo.com/files/images/rhubarb_cherryred_plant.preview.png "CherryRed Rhubarb Plant")
+![CherryRed Rhubarb Plant](/_assets/43284cd1390b822e.png "CherryRed Rhubarb Plant")
 
 CherryRed rhubarb plant
 

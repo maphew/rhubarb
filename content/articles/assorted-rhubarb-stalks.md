@@ -5,11 +5,9 @@ collection: articles
 sourceUrl: "http://rhubarbinfo.com/assorted_rhubarb_stalks"
 archivedAt: "2013-11-02T04:02:09Z"
 waybackTimestamp: "20131102040209"
-cleanupReason: photo-stub
-originalCollection: articles
 ---
 
-![Assorted Rhubarb Stalks](http://www.rhubarbinfo.com/files/images/rhubarb_stalks_assorted.preview.jpg "Assorted Rhubarb Stalks")
+![Assorted Rhubarb Stalks](/_assets/177e9a952a6814df.jpg "Assorted Rhubarb Stalks")
 
 Assorted Rhubarb stalks.
 

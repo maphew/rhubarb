@@ -5,11 +5,9 @@ collection: articles
 sourceUrl: "http://rhubarbinfo.com/beetle_on_rhubarb"
 archivedAt: "2013-11-02T04:51:27Z"
 waybackTimestamp: "20131102045127"
-cleanupReason: photo-stub
-originalCollection: articles
 ---
 
-![Beetle On Rhubarb Leaf](http://www.rhubarbinfo.com/files/images/rhubarb_beetle.preview.png "Beetle On Rhubarb Leaf")
+![Beetle On Rhubarb Leaf](/_assets/00b9b99dbc127749.png "Beetle On Rhubarb Leaf")
 
 Beetle on rhuarb leaf
 
