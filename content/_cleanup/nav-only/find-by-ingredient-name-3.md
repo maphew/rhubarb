@@ -5,6 +5,8 @@ collection: recipes
 sourceUrl: "http://rhubarbinfo.com/recipe/bying/11"
 archivedAt: "2014-07-01T13:02:02Z"
 waybackTimestamp: "20140701130202"
+cleanupReason: nav-only
+originalCollection: recipes
 ---
 
 ## Navigation

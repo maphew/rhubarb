@@ -23,7 +23,7 @@ from __future__ import annotations
 
 import argparse
 import re
-import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -87,11 +87,18 @@ def classify(r: dict) -> str | None:
     if re.match(r"the-rhubarb-compendium-\d+\.md$", name) and len(prose) < 50:
         return "blogger-month-index"
 
-    # Drupal sidebar nav with no own content
-    if body.lstrip().startswith("## Navigation"):
-        # Sidebar nav is ~5500-10500 chars; the whole "page" is just the sidebar.
-        # Heuristic: nav block is dominant (no real prose after stripping links).
-        if len(prose) < 300:
+    # Drupal sidebar nav with no own content.
+    # The nav block can run 5500-10500 chars and the visible link-text alone
+    # exceeds the 300-char prose threshold once URLs are stripped, so we don't
+    # gate on prose length. Instead we look at structural signals: the body's
+    # first non-blank line is `## Navigation`, the body contains the
+    # `Table Of Contents` anchor that the Drupal theme always emits, and the
+    # vast majority of the body is inside `[...](...)` link syntax.
+    body_stripped = body.lstrip()
+    if body_stripped.startswith("## Navigation") and "Table Of Contents" in body:
+        body_chars = len(body.strip())
+        link_chars = sum(len(m.group(0)) for m in re.finditer(r"\[[^\]]*\]\([^)]*\)", body))
+        if body_chars > 0 and link_chars / body_chars >= 0.80:
             return "nav-only"
 
     # Photo-stub: drupal era, near-empty body, references a dead rhubarbinfo.com image
@@ -215,12 +222,30 @@ def main():
             dest_name = f"{coll}__{r['path'].name}"
         dest = dest_dir / dest_name
 
-        text = r["path"].read_text(encoding="utf-8")
+        # Use `git mv` so the rename is tracked in git history. Annotate the
+        # frontmatter at the destination after the move.
+        subprocess.run(
+            ["git", "mv", str(r["path"]), str(dest)],
+            cwd=ROOT,
+            check=True,
+        )
+        text = dest.read_text(encoding="utf-8")
         text = annotate_frontmatter(text, cat, coll)
         dest.write_text(text, encoding="utf-8")
-        r["path"].unlink()
 
-    (CLEANUP / "MANIFEST.tsv").write_text(manifest_text, encoding="utf-8")
+    # Append new manifest rows to any existing MANIFEST.tsv rather than
+    # clobbering rows from prior cleanup passes.
+    manifest_path = CLEANUP / "MANIFEST.tsv"
+    new_rows = manifest_lines[1:]  # drop header
+    if manifest_path.exists():
+        existing = manifest_path.read_text(encoding="utf-8").rstrip("\n").splitlines()
+        # Skip any rows whose original_path is already recorded (idempotent).
+        recorded = {ln.split("\t", 2)[1] for ln in existing[1:] if "\t" in ln}
+        appended = [ln for ln in new_rows if ln.split("\t", 2)[1] not in recorded]
+        all_lines = existing + appended
+    else:
+        all_lines = manifest_lines
+    manifest_path.write_text("\n".join(all_lines) + "\n", encoding="utf-8")
     print(f"Moved {len(plan)} files. Manifest at content/_cleanup/MANIFEST.tsv")
 
 

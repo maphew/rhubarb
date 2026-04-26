@@ -5,6 +5,8 @@ collection: recipes
 sourceUrl: "http://www.rhubarbinfo.com:80/recipe/bycat"
 archivedAt: "2014-10-05T23:29:06Z"
 waybackTimestamp: "20141005232906"
+cleanupReason: nav-only
+originalCollection: recipes
 ---
 
 ## Navigation

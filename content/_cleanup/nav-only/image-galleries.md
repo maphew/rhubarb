@@ -5,6 +5,8 @@ collection: articles
 sourceUrl: "http://rhubarbinfo.com/image"
 archivedAt: "2014-07-19T21:37:02Z"
 waybackTimestamp: "20140719213702"
+cleanupReason: nav-only
+originalCollection: articles
 ---
 
 ## Navigation

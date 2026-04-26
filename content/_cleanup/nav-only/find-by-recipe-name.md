@@ -5,6 +5,8 @@ collection: recipes
 sourceUrl: "http://www.rhubarbinfo.com:80/recipe/byname"
 archivedAt: "2014-10-05T23:18:27Z"
 waybackTimestamp: "20141005231827"
+cleanupReason: nav-only
+originalCollection: recipes
 ---
 
 ## Navigation
