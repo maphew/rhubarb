@@ -26,8 +26,9 @@ from collections import defaultdict
 ASSETS = Path("public/_assets")
 # Note: lives under public/ so Astro serves it as a static file.
 RAW = Path("raw")
-URL_MAP = ASSETS / "_url_map.json"
-LOG = ASSETS / "_fetch.log"
+META = Path("tools/_meta")
+URL_MAP = META / "url_map.json"
+LOG = META / "fetch.log"
 
 EXT_FROM_MIME = {
     "image/jpeg": "jpg", "image/jpg": "jpg",
@@ -174,6 +175,7 @@ def guess_ext(url: str, ctype: str) -> str:
 
 def main() -> int:
     ASSETS.mkdir(parents=True, exist_ok=True)
+    META.mkdir(parents=True, exist_ok=True)
 
     existing: dict[str, str] = {}
     if URL_MAP.exists():

@@ -6,7 +6,7 @@ import re
 import sys
 from pathlib import Path
 
-URL_MAP = Path("public/_assets/_url_map.json")
+URL_MAP = Path("tools/_meta/url_map.json")
 CONTENT = Path("content")
 
 
