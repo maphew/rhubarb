@@ -1190,3 +1190,9 @@ Preheat oven to 400 f. Mix rhubarb, strawberries, 1/2 cup sugar, cornstarch and 
 #### Procedure:
 
 Combine brown sugar, flour, oatmeal, and melted butter. Press 1/2 of the mixture on the bottom of an 8" or 9" square pan. Reserve the rest. In a large saucepan, combine rhubarb, sugar, water and cornstarch; cook until clear. Add vanilla. Pur rhubarb mixture over crust. Cover with remaining crunch. Bake at 350 for 40 - 45 minutes. Cool.
+
+---
+
+## Photo credit
+
+Strawberry rhubarb crisp photo originally from [stu_spivack's photostream](https://web.archive.org/web/2017*/http://www.flickr.com/photos/stuart_spivack/) on Flickr, used under [Creative Commons BY 2.0](http://creativecommons.org/licenses/by/2.0/deed.en).

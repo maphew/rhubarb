@@ -753,3 +753,9 @@ Wash and cut rhubarb into l-inch pieces and blend or grind. Wash, stem and crush
 Sterilization of Empty Jars
 
 To sterilize empty jars, place them right side up on the rack in a boiling-water canner. Fill the canner and jars with hot (not boiling) water to 1 inch above the tops of the jars. Boil 10 minutes at altitudes of less than 1,000 feet. At higher elevations, boil 1 additional minute for each additional 1,000 feet elevation. Remove and drain hot sterilized jars one at a time as filled.
+
+---
+
+## Photo credit
+
+Rhubarb jam photo originally from [di_the_huntress' photostream](https://web.archive.org/web/2017*/http://www.flickr.com/photos/22863752@N06/) on Flickr, used under [Creative Commons BY 2.0](http://creativecommons.org/licenses/by/2.0/deed.en).

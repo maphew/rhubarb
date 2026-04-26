@@ -1353,3 +1353,9 @@ In a small bowl, combine first 5 ingredients, and set aside for topping.
 In a medium mixing bowl, stir together the flours, baking powder, cinnamon, baking soda and salt. Set aside.
 
 Combine yogurt and milk. In a large mixing bowl, beat together brown sugar and butter. Add eggs and vanilla. Beat until fluffy. To this mixture, alternately add the 2-flour mixture and the yogurt mixture, beating until well blended. Fold in the rhubarb. Pour batter into a greased and floured 9x13-inch baking dish or pan. Sprinkle topping over batter. Bake at 350­F for 45 to 50 minutes, or until done. Serve warm or cool.
+
+---
+
+## Photo credit
+
+Rhubarb upside-down cake photo originally from [stu_spivack's photostream](https://web.archive.org/web/2017*/http://www.flickr.com/photos/stuart_spivack/) on Flickr, used under [Creative Commons BY 2.0](http://creativecommons.org/licenses/by/2.0/deed.en).

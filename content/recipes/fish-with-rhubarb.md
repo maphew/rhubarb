@@ -91,3 +91,9 @@ While onion is caramelizing, cook rhubarb, honey, 1/3 cup orange juice, and 1/4 
 Add ginger and cinnamon to onion and cook, stirring, 1 minute. Add remaining 1/3 cup orange juice and boil until thickened, about 1 minute. Stir in rhubarb purée, tomatoes, pepper, and 1/2 teaspoon salt and briskly simmer, stirring occasionally until sauce is thickened slightly, 7 to 10 minutes. Remove from heat.
 
 While sauce simmers, grease a 17- by 12-inch glass or ceramic baking dish with remaining tablespoon oil. Pat fish dry and sprinkle with remaining 1/2 teaspoon salt. Arrange fish, skin sides up, in 1 layer in baking dish and bake until opaque and just cooked through, 12 to 14 minutes. Stir orange segments into sauce and cook until heated through, 1 to 2 minutes, and season with salt. Stir mint into sauce and serve with fish.
+
+---
+
+## Photo credit
+
+Black bass with rhubarb sauce photos originally from [stu_spivack's photostream](https://web.archive.org/web/2017*/http://www.flickr.com/photos/stuart_spivack/) on Flickr, used under [Creative Commons BY 2.0](http://creativecommons.org/licenses/by/2.0/deed.en).

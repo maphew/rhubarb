@@ -64,3 +64,9 @@ Place chicken in a shallow baking dish. Brush with butter and sprinkle with salt
 #### Procedure:
 
 Just make your usual stuffing but put lots of fresh rhubarb in at the last, chopped however thin you like it. I personally chop it into fine, little pieces because I just happen to like chopping things I guess. Anyway, mix it all up and just cram it into that turkey!! Don't forget to stuff the uh....other end of the turkey....but you really have to cram it in that end...really really hard....till it just can't take anymore!!! Cook as you regularly would, and wait for the compliments you're gonna receive because no one knows \*what\* that extra ingredient is! Keeps well and just reheat with a little water. Enjoy!!!
+
+---
+
+## Photo credit
+
+Grilled chicken with rhubarb sauce photo originally from [iLoveButter's photostream](https://web.archive.org/web/2019*/http://www.flickr.com/photos/jdickert/) on Flickr, used under [Creative Commons BY 2.0](http://creativecommons.org/licenses/by/2.0/deed.en).
