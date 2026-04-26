@@ -1,0 +1,1625 @@
+---
+title: Rhubarb Cake Recipes
+era: static
+collection: recipes
+sourceUrl: "http://www.rhubarbinfo.com:80/recipe-cake.html"
+archivedAt: "2008-11-06T13:46:20Z"
+waybackTimestamp: "20081106134620"
+---
+
+**The Rhubarb Compendium**  
+[[Home](http://www.rhubarbinfo.com)]
+[[Recipes](http://www.rhubarbinfo.com:80/recipe-index.html)]
+[[Previous page](http://www.rhubarbinfo.com:80/recipe-bread.html)]
+[[Next page](http://www.rhubarbinfo.com:80/recipe-cobbler.html)]
+
+---
+
+## 10.3 - Rhubarb Cake Recipes
+
+Recipes in this section:
+
+- [Fabulous Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_1)- [Chef Freddy's Apple-Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_2)- [Cold Rhubarb Souffle](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_3)- [Almond Rhubarb Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_4)- [German Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_5)- [Moist Rhubarb Coffeecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_6)- [Mom's Raw Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_7)- [Quick and Easy Strawberry Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_8)- [Ravishing Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_9)- [Rhubarb and Amaretti Strudel](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_10)- [Rhubarb-Apple Strudel](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_11)- [Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_12)- [Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_13)- [Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_14)- [Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_15)- [Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_16)- [Rhubarb Cheesecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_17)- [Rhubarb Cheesecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_18)- [Rhubarb Cheesecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_19)- [Rhubarb Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_20)- [Rhubarb Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_21)- [Rhubarb Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_22)- [Rhubarb Custard Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_23)- [Rhubarb Dump Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_24)- [Rhubarb and Ginger Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_25)- [Rhubarb Lemon Cake Roll](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_26)- [White Chocolate Toasted Almond Semifreddo (mousse)](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_27)- [Rhubarb Meringue Torte](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_28)- [Rhubarb Peekaboo](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_29)- [Rhubarb pudding cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_30)- [Rhubarb pudding cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_31)- [Rhubarb Pudding Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_32)- [Rhubarb Shortcake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_33)- [Rhubarb Sour Cream Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_34)- [Rhubarb Strawberry Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_35)- [Rhubarb Swirl Cheesecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_36)- [Rhubarb Upside-Down Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_37)- [Rhubarb Upside-Down Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_38)- [Judith's Strange Upside-down Rhubarb Cake-like Thing](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_39)- [Rhubarber Kuchin (rhubarb cake)](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_40)- [River Road Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_41)- [Strawberry Rhubarb Cheesecake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_42)- [Strawberry Rhubarb Coffee Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_43)- [Tom Famous Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_44)- [Yogurt Rhubarb Cake](http://www.rhubarbinfo.com:80/recipe-cake.html#index_cake_45)
+
+---
+
+### Fabulous Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1 1/2 cups raw Rhubarb cut fine
+> 1  cup brown sugar
+> 1/2 cup white sugar
+> 1 egg
+> 1/2 cup butter or margarine
+> 1 cup applesauce
+> 1/2 tsp. salt
+> 1 tsp. soda
+> 1 tsp. vanilla
+> 2 cups flour
+> ```
+
+#### Procedure:
+
+> In large mixing bowl cream sugars and butter, add egg and salt. Stir in applesauce,
+> soda, vanilla, and flour. Add rhubarb. Pour in prepared 9x13x2-inch baking pan and
+> sprinkle with 1/4 cup white sugar and 1 tsp. cinnamon. Bake at 375-degrees for 30 to 35
+> minutes. The cake is very moist and needs no frosting.
+
+---
+
+### Chef Freddy's Apple-Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 2 c Rhubarb [diced]
+> 3 c Apple pie filling
+> 1 pk Strawberry gelatin mix
+> 1 c Sugar
+> 1 ts Cinnamon [ground]
+> 1 pk White cake mix
+> 3 c Mini-marshmallows
+> ```
+
+#### Procedure:
+
+> Mix the fruit together and put in the bottom of 9" x 11" glass cake/baking
+> pan. Mix the gelatin, sugar and, cinnamon, pour over the fruit, cover with the
+> marshmallows, then pour the cake mix on top of everything. Bake in a 350o oven for 45 to
+> 50 min. cool to room temperature and then refrigerate `til ready to serve, garnish as
+> desired.
+
+---
+
+### Cold Rhubarb Souffle
+
+#### Ingredients:
+
+> ```
+> 4 c Chopped rhubarb
+> 2 1/4 c Sugar
+> 1 Envelope gelatin
+> 1 c Heavy cream
+> 4 Egg whites
+> 1 ts Vanilla
+> 12 Fresh strawberries
+> Additional whipped cream
+> ```
+
+#### Procedure:
+
+> Cook the rhubarb with 1/4 cup water and 1 3/4 cup sugar in a heavy bottomed saucepan
+> for about 10 minutes until soft. Strain and cook down the juice to 1/2 cup. Puree the
+> rhubarb in a food mill or a blender, or put through a vegetable mill.
+>
+> Soften the gelatin in 2 tablespoons cold water, then add to the hot rhubarb juice and
+> stir until completely dissolved. Add the puree.
+>
+> Beat the cream until stiff.
+>
+> Beat the egg whites until they begin to stiffen, then add the remaining 1/2 cup sugar
+> and the vanilla, continuing to beat until stiff peaks form.
+>
+> Fold first the eggwhite mixture into the rhubarb, then the whipped cream. Make a collar
+> of wax paper and fit it around a 1 1/2 quart souffle mold. Chill for at least six hours.
+> Remove the collar and decorate the top with fresh strawberries and rosettes of whipped
+> cream piped from a pastry tube.
+
+---
+
+### Almond Rhubarb Coffee Cake
+
+#### Ingredients:
+
+> ```
+> 1 1/2 c. packed brown sugar
+> 2/3 c. vegetable oil
+> 1 egg
+> 1 tsp. vanilla
+> 2 1/2 c. flour
+> 1 tsp. salt
+> 1 tsp. baking soda
+> 1 c. milk
+> 1 1/2 c. finely chopped fresh or frozen rhubarb
+> 1/2 c. sugar
+>
+> Topping:
+>
+> 1/3 c. sugar
+> 1 Tbls. butter, melted
+> 1/4 c. sliced almonds
+> ```
+
+#### Procedure:
+
+> Beat brown sugar, oil, egg & vanilla until smooth. Combine flour salt & baking
+> soda; add to sugar mixture alternatly with milk. Beat until smooth. Stir in Rhubarb &
+> almonds. Pour into 2 greased 9-inch round cake pans. For topping, combine sugar &
+> butter; stir in almonds. Sprinkle over batter. Bake at 350 degrees F for 30-35 minutes or
+> test done.
+
+---
+
+### German Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1/2 c. shortening
+> 1 1/2 c. brown sugar
+> 1 egg
+> 1/2 tsp. salt
+> 2 c. finely chopped rhubarb
+> 2 c. plus 2 Tbsp. flour
+> 1 tsp. soda
+> 1 c. buttermilk or soured milk
+> 1 tsp. cinnamon
+> 1/4 tsp. allspice
+> 1/4 tsp. cloves
+> 1 tsp. vanilla
+>
+> Topping:
+>
+> 1/2 c. sugar
+> 1 tsp. cinnamon
+> 1/2 c. chopped nuts
+> 1/2 c. coconut
+> ```
+
+#### Procedure:
+
+> Mix shortening, cinnamon, brown sugar, allspice, egg, cloves, salt and vanilla well,
+> then add rhubarb and set aside. In a separate bowl, mix flour and soda alternately. Add
+> flour and buttermilk to first ingredients. Mix well and pour batter in a greased 9 x
+> 13-inch pan. Combine topping ingredients and sprinkle on batter. Bake in a 350 degrees
+> oven for 40 minutes.
+
+---
+
+### Moist Rhubarb Coffeecake
+
+#### Ingredients:
+
+> ```
+> 2 cups cake flour
+> 1 teaspoon baking powder
+> 1 teaspoon baking soda
+> 1/2 teaspoon salt
+> 1 cup firmly packed light brown sugar, plus 2 tablespoons
+> 1 egg
+> 1 cup plain low fat yogurt
+> 1/2 cup applesauce
+> 1 teaspoon vanilla
+> 3 cups uncooked rhubarb, coarsely chopped
+> ```
+
+#### Procedure:
+
+> Sift the flour, baking powder, baking soda and salt into a large bowl. In a separate
+> bowl, mix the egg and sugar then add the yogurt, applesauce, and vanilla. Stir into the
+> flour mixture until blended, then add the chopped rhubarb and mix well. Turn into a 9-inch
+> square pan that is greased or sprayed with non-stick spray. Sprinkle top with remaining
+> sugar. Bake at 350 for 30-35 minutes until the cake tests done in the center.
+
+---
+
+### Mom's Raw Rhubarb Cake
+
+#### Ingredients:
+
+> 1 1/2 cup brown sugar  
+> 1/2 cup butter  
+> 1 egg  
+> 1/2 tsp. salt  
+> 1 cup buttermilk, sour milk, or sour cream  
+> 1 tsp. soda  
+> 1/2 tsp. baking powder  
+> 1 tsp. vanilla extract  
+> 2 1/4 cups flour  
+> 1 1/2 cup cut rhubarb   
+>   
+> Topping:  
+> 1/4 cup sugar  
+> 1 tsp. cinnamon  
+> 1 tsp. nutmeg
+
+#### Procedure:
+
+> Cream sugar, butter, egg, and salt.  Stir in buttermilk, soda, vanilla, and flour.
+>   Add rhubarb and beat well.  Pour into well-greased 9 x 13" cake
+> pan.  Sprinkle with topping.  Bake at 375 degrees F. for 35 minutes or until
+> toothpick comes out clean.
+
+> This can be served as a coffeecake or is good as a dessert cake with whipped cream or
+> ice cream.
+
+---
+
+### Quick and Easy Strawberry Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 4 cups rhubarb, 1" pieces
+> 1 pkg Strawberry Jello mix
+> 1/2 cup sugar
+> 1 pkg yello cake mix
+> 1 cup water
+> ```
+
+#### Procedure:
+
+> Spread about 4 cups rhubarb pieces in 9x13 pan. Sprinkle with 1 pkg Strawberry Jello
+> (dry powder) as evenly as possible. Sprinkle 1/2 to 1 cup sugar over that. Next layer is 1
+> pkg yellow cake mix (straight out of the box). Last pour 1/2 to 1 cup water over
+> everything. This should be done as evenly as possible, dampening as much of the cake mix
+> power as you can. Cover with foil and bake at 350 degrees for about 30 minutes.
+>
+> Good warm, good cold, good plain and yummy with Cool Whip on top.
+
+---
+
+### Ravishing Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 3 eggs
+> 1/4 teaspoon salt
+> 11/4 cups sugar
+> 1 teaspoon vanilla extract
+> 2 cups unbleached flour
+> 1 teaspoon baking soda
+> 2 teaspoons cinnamon
+> 1 cup applesauce or plain nonfat yogurt
+> 3 cups uncooked rhubarb, cut into 1/2-inch pieces
+> 1/2 cup chopped walnuts
+> Powdered sugar
+> ```
+
+#### Procedure:
+
+> Preheat oven to 350 degrees. Coat a 9x13-inch baking pan with nonstick cooking spray.
+> Beat eggs, salt, sugar and vanilla in large bowl. Stir in flour, soda and cinnamon. Add
+> applesauce, rhubarb and nuts; stir until well blended.
+>
+> Pour into prepared pan and bake for 1 hour. Cool; dust with powdered sugar. Yields 20
+> servings.
+>
+> Per serving: 130 calories; 2.8 g fat (0.3 g saturated fat, 19 percent calories from
+> fat); 32 mg cholesterol; 78 mg sodium.
+
+---
+
+### Rhubarb and Amaretti Strudel
+
+#### Ingredients:
+
+> ```
+> 1 lb fresh rhubarb stalks
+> 9 sheets phyllo dough (about 1/2 package), thaw if frozen
+> 1 cup (2 sticks) unsalted butter, melted
+> 1 cup crushed amaretti
+> 1/2 cup packed brown sugar
+> 2 tsp ground cinnamon
+> Grated zest of 1 orange
+> 1/2 cup chopped walnuts
+> Whipped cream or vanilla ice cream
+> ```
+
+#### Procedure:
+
+> Cut rhubarb into 1/2 inch pieces. Blanch the pieces in boiling water for 1 and 1/2
+> minutes, drain and pat dry.
+>
+> Place 1 sheet of phyllo on a baking sheet the same size as the phyllo dough. Brush with
+> butter and sprinkle with a few tablespoons of the amaretti crumbs. Keep remaining dough
+> covered with damp towel to prvent from drying out. Layer 4 more sheets of the phyllo on
+> top of the first in the same manner, brushing each with butter and sprinkling with crumbs.
+> Then, layer 2 more sheets, brushing with butter but omitting the amaretti.
+>
+> Mak a compact row of rhubarb peices 2 inches from one long edge of the dough. Sprinkle
+> the rhubarb with the brown sugar, cinnamon, orange zest, walnuts and any remaining
+> amaretti crumbs.
+>
+> Layer 2 more phyllo sheets over the rhubarb, brushing with butter. Starting at the edge
+> with the rhubarb, roll up the dough like a jelly roll. Turn seam side up and brush the top
+> and sides of the dough with butter. Turn seam side down, fold both ends under to seal, and
+> brush top with butter.
+>
+> Bake until golden brown (40-50 minues). Let stand several minutes, then slice. Serve
+> with whipped cream or ice cream. Can be baked in advance and served at room temperature or
+> cold.
+>
+> Serves 8
+
+---
+
+### Rhubarb-Apple Strudel
+
+#### Ingredients:
+
+> ```
+> filling:
+>
+> 2 cups sliced rhubarb
+> 3 red Delicious apples
+> 1/2 cup sugar
+> 2 tablespoons grated lemon zest
+> 3 tablespoons golden raisins
+> 2 tablespoons tapioca
+>
+> pastry:
+>
+> 12 sheets phyllo dough
+> 1/2 cup melted butter or shortening
+>
+> 1/2 cup finely chopped walnuts
+> ```
+
+#### Procedure:
+
+> Combine the filling ingredients, except the tapioca, with 1/2 cup water in a medium
+> saucepan; bring to a boil. Simmer about 12 minutes. Stir in the tapioca and let cool. Set
+> aside.
+>
+> Preheat oven to 375 degrees.
+>
+> Using 6 sheets of phyllo for each strudel, spread each sheet with butter, sprinkle with
+> nuts and stack.
+>
+> Spoon half the filling along the long edge of each stack. Fold the edges over to
+> enclose the filling and roll up, jelly-roll fashion. Place on a greased baking sheet.
+> Brush the tops with butter. With a sharp knife cut four slits in each strudel. Bake 25
+> minutes or until golden brown. Let cool at least 15 minutes before slicing. serves 12
+
+---
+
+### Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1 1/2 c. sugar  Topping:
+> 1/2 c. margarine or butter
+> 1/2 c. sugar
+> 1 egg   1 tsp. cinnamon
+> 2 1/2 c. flour, sifted
+> 2 c. rhubarb, cut up
+> 1 tsp. salt
+> 1 tsp. soda
+> 1 c. milk
+> 1 tsp. vanilla
+> ```
+
+#### Procedure:
+
+> Combine 1/2 cup flour with rhubarb; let set. Cream sugar and margarine and add egg. Add
+> dry ingredients alternately with milk and mix with creamed mixture. Add rhubarb and
+> vanilla.
+>
+> Mix the 1/2 cup sugar and cinnamon; sprinkle on top. Pour batter into a greased and
+> floured 9"x13" baking pan. Bake at 350 degrees for 35-40 minutes.
+
+---
+
+### Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1 1/4 cup brown sugar
+> 1/2 cup shortening
+> 1 egg
+> 2 cups flour
+> 1/2 tsp salt
+> 2 tsp vanilla
+> 1 cup milk
+> 5 cups rhubarb
+>
+> Topping:
+>
+> 1/2 cup sugar
+> 1 tsp cinnamon
+> 1/2 pkg coconut
+> ```
+
+#### Procedure:
+
+- Mix cake ingredients together, pour into pan.
+- Mix topping ingredients together.
+- Sprinkle on top.  Bake 350F for one hour.  Top will darken.
+
+---
+
+### Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1 1/2 cups light brown sugar
+> 1/2 cup shortening
+> 1/2 teaspoon salt
+> 1 teaspoon baking soda
+> 1 teaspoon vanilla
+> 1 1/2 cups cut-up raw rhubarb
+> 1 cup buttermilk
+> 1 egg
+> 2 cups flour
+> 1/3 cup sugar
+> 1 teaspoon cinnamon
+> ```
+
+#### Procedure:
+
+> Preheat oven to 350.
+>
+> Combine brown sugar, shortening, salt, baking soda, vanilla and rhubarb. Combine the
+> buttermilk and egg and add alternately with the flour to the rhubarb mixture. Turn into a
+> well-greased 9 x 13 pan. Combine sugar and cinnamon and sprinkle over top. Bake 30-35
+> minutes.
+
+---
+
+### Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 0.5 c sugar
+> 0.5 c soft butter
+> 1.75 c flour
+> 1.75 t bking pdr
+> 0.5 t salt
+> 1 t cinnamon
+> 2 eggs
+> 0.5 c milk
+> 2 c rhubarb with 2 T sugar and 1 t cinnamon mixed together
+> ```
+
+#### Procedure:
+
+> Throw all ingrediants into a bowl and mix til most lumps are gone. put chopped rhubarb
+> in 9 x 9 greased pan. Pour batter over. bake in preheated oven for 35-40 minutes @ 375
+> degrees F.
+
+---
+
+### Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1/2 c  Margarine
+> 1 1/2 c  Sugar, brown
+> 1    Egg; beaten
+> 1 ts Vanilla
+> 1/8 ts Salt
+> 1 c  Buttermilk
+> 2 c  Flour
+> 1 ts Baking soda
+> 3 c  Rhubarb; finely sliced
+> 1/2 c  Nuts; chopped
+> 1/3 c  Sugar, brown
+> 1/3 c  Sugar
+> 1/2 ts Cinnamon
+> ```
+
+#### Procedure:
+
+> Slice the rhubarb into 1/4" slices. Cream the margarine and 1¼ cups brown sugar;
+> add the egg, vanilla and salt; mix well. Add the buttermilk, flour and soda; mix well.
+> Stir in the rhubarb. Pour the batter into a well-greased "x13" cake pan. Mix
+> together 1/2 cup nuts, 1/3 cup brown sugar, 1/3 cup white sugar and 1/2 teaspoon cinnamon;
+> distribute this mixture evenly over the unbaked cake batter. Bake for about 45 minutes in
+> a 350 degree oven.
+
+---
+
+### Rhubarb Cheesecake
+
+#### Ingredients:
+
+> ```
+> 2 pk Light cream cheese (16 oz)
+> 1/2 c Sugar
+> 2 lg Eggs
+> 1 T Flour
+> 1 t Lemon rind (optional)
+> 3/4 c Rhubarb sauce
+>
+> Crust:
+>
+> 1  Stick butter
+> 1 pk Keebler Cinnamon Grahams, Finely ground
+> ```
+
+#### Procedure:
+
+> To make crust: Put graham crackers in a food processor and process until finely ground.
+> Melt butter in microwave. Combine ingredients in a 9-inch spring form pan. Press the
+> crumbs evenly over the bottom. Bake the crust at 325 F for about 10 minutes. Cool.
+>
+> To make rhubarb sauce: Chop 4 stalks rhubarb and put into a medium sized saucepan. Add
+> about 3 tablespoons water and cook over low heat until very soft. Remove rhubarb from heat
+> and mash the rhubarb. Add about 1/4 cup granulated sugar, 3 tablespoons Triple Sec and 1
+> tablespoon flour; mix well. Put back on stove and stir until thickened. Cool.
+>
+> To make topping: Combine 3/4 cup rhubarb sauce, 1 cup light sour cream and sugar if you
+> desire a sweeter topping.
+>
+> To make cheesecake: In a food processor combine cream cheese, sugar, eggs, flour, lemon
+> rind, and rhubarb sauce; blend until smooth. Pour over crust and bake about 50 minutes (
+> or until cake barely moves when shaken) at 325 F. Turn oven off and leave cake in oven
+> another 10 minutes. Cool. When cheesecake is cool top with the rhubarb/sour cream mixture
+> and refrigerate 2 hours. Serve with whip cream.
+
+---
+
+### Rhubarb Cheesecake
+
+#### Ingredients:
+
+```
+2 tb Flour
+4    Cream cheese; 8 oz pkg
+1 ts Lemon rind; grated
+1 c  Sugar
+1 1/2 c  Rhubarb sauce; thickened
+4    Eggs; lg
+```
+
+#### Procedure:
+
+> Heat oven to 325'F. Lightly grease a 9" springform pan. In a large bowl; with elec
+> mixer, beat the softened cream cheese and sugar until fluffy. Beat in eggs, one at a time,
+> beating after each addition. Fold in flour and lemon rind until well combined. Stir in 1/2
+> cup of the rhubarb sauce. Turn into greased pan Bake cake until center is just set-about 1
+> hour. Turn off oven and allow cake to stay in oven 1 hour longer Refrigerate cake until
+> ready to serve-4 hours to over night. Loosen edges and remove sides of pan. Place cake on
+> serving plate and top with remaining rhubarb sauce.
+
+---
+
+### Rhubarb Cheesecake
+
+#### Ingredients:
+
+> ```
+> CRUST
+>
+> 1 1/2 Cups zwieback crumbs
+> 1/3 Cup sugar
+> 3/4 Teaspoon ground cinnamon
+> 6 Tablespoons butter or margarine
+>
+> FILLING
+>
+> 3 eggs, well beaten
+> 16 Ounces cream cheese, softened
+> 1 1/3 cups sugar
+> 2 teaspoons vanilla
+> 1/2 teaspoon ground nutmeg
+> 1/4 teaspoon salt
+> 3 cups sour cream
+>
+> TOPPING
+>
+> 1 cup fresh rhubarb, in 1" pieces, 1/4 lb
+> 1 tablespoon cornstarch
+> 1 dash salt
+> 7 to 8 drops red food coloring
+> 2 cups fresh strawberries, halved
+> ```
+
+#### Procedure:
+
+> Advanced Preparation: Crumb Crust: Combine zwieback crumbs, sugar, cinnamon and butter
+> or margarine. Mix until crumbly. Press crumbs on bottom and about 1 1/2" up the sides
+> of a buttered 9" springform pan. Chill crumb crust thoroughly. In bowl, combine eggs,
+> cream cheese, 1 cup of sugar, vanilla, nutmeg and the 1/4 tsp. salt. Beat until smooth.
+> Blend in the sour cream. Pour into Crumb Crust.
+>
+> Bake at 375 F. just until set, 40-45 minutes. (Filling will be soft). Cool.
+>
+> In a saucepan combine the rhubarb, remaining 1/3 cup sugar and 1/2 cup water. Bring ot
+> a boil. Reduce heat. Simmer, uncovered until almost tender, about 1 minute, being careful
+> not to break up rhubarb. Remobe from heat. Drain, reserving syrup. Add water to syrup to
+> equal 3/4 cup. Mix cornstarch, dash salt and 2 T. cold water. Add to syrup mixture. cook
+> and stir until thick and bubbly. Cook 1 minute more. Remove glaze from heat. Stir in food
+> coloring. Cool to room temperature. Arrange strawberries and rhubarb on cooled cheesecake.
+> Spoon glaze over the top. Cover and chill. Makes 12 servings.
+
+---
+
+### Rhubarb Coffee Cake
+
+Try this great-tasting coffee cake. Definitely one for all you rhubarb fans out there.
+Makes 10 servings.
+
+#### Ingredients:
+
+> ```
+> Vegetable cooking spray
+> 2 cups (500 mL) all-purpose flour
+> 1 cup (250 mL) white sugar
+> 1/3 cup (80 mL) butter or margarine
+> 4 tsp (20 mL) Watkins Baking Powder
+> 1 1/2 tsp (7.5 mL) Watkins Cinnamon
+> 1/2 tsp (2.5 mL) salt
+> 1 egg
+> 1 cup (250 mL) buttermilk
+> 1/4 cup (60 mL) vegetable oil
+> 2 tsp (10 mL) Watkins Vanilla Extract
+> 2 cups (500 mL) chopped fresh or frozen rhubarb (thaw and drain if frozen)
+> 2 Tbsp (30 mL) white sugar
+> 1/4 tsp (1.2 mL) Watkins Cinnamon
+> ```
+
+#### Procedure:
+
+> Preheat oven to 350 degrees F (180 degrees C). Lightly grease a 9 in (23 cm) round cake
+> pan. In medium bowl, combine flour, sugar, Baking Powder, Cinnamon, and salt. In large
+> bowl, whisk egg, buttermilk, oil, and Vanilla Extract. Add flour mixture and blend. Stir
+> in rhubarb. Pour batter into pan, spreading evenly.
+>
+> In small bowl, combine remaining sugar and Cinnamon. Sprinkle evenly over cake. Bake
+> 45-50 minutes or until golden brown. Let cake cool in pan on wire rack 15 minutes. Serve
+> warm, cut into 10 wedges (1 wedge per serving).
+
+#### Nutrition:
+
+> Calories 250, Dietary Fiber 1 g, Saturated Fat 1 g, Carbohydrates 45 g, Fat 6 g, Sodium
+> 270 mg, Cholesterol 22 mg, Protein 4 g
+
+---
+
+### Rhubarb Coffee Cake
+
+#### Ingredients:
+
+> ```
+> 1/2 cup margarine
+> 1 1/2 cups sugar
+> 1 egg
+> 1 cup buttermilk or sour milk
+> 1 tsp. baking powder
+> 1 tsp. vanilla extract
+> 1/2 tsp salt
+> 2 1/2 cups flour
+> 3 cups Rhubarb, thinly sliced
+>
+> Topping:  1 cup brown sugar and 1/2 cups nuts (I use walnuts-chopped)
+> ```
+
+#### Procedure:
+
+> Mix margarine, sugar, egg, milk, baking powder, vanilla, salt, flour until well
+> blended. Stir in the rhubarb. Pour into a 9" X 13" greased pan. Put on topping.
+> Bake at 350 degrees for 45 mins.
+
+---
+
+### Rhubarb Coffee Cake
+
+#### Ingredients:
+
+> ```
+> Cake:
+> ```
+>
+> ```
+> 2 cups flour
+> 1 teaspoon baking soda
+> 1/2 teaspoon salt
+> 1/2 cup shortening or butter, softened
+> 1-1/2 cups brown sugar
+> 1 egg
+> 1 cup sour cream
+> 1 teaspoon vanilla
+> 2-1/2 cups fresh rhubarb, cut in chunks
+> ```
+>
+> ```
+> Topping:
+> ```
+>
+> ```
+> 1/2 cup sugar
+> 1/2 cup chopped nuts
+> 1 teaspoon cinnamon
+> 1 tablespoon melted butter
+> ```
+
+#### Procedure:
+
+> Mix flour, soda and salt and set aside. In a large mixing bowl, cream together
+> shortening and brown sugar until fluffy. Beat in egg. Beat in flour and sour cream
+> alternately until blended. Mix in vanilla and rhubarb. Spread in greased and floured
+> 9" x 13" pan. Mix together sugar, nuts, cinnamon, and melted butter; sprinkle
+> over top. Bake 350 degrees for 40 to 50 minutes.
+
+---
+
+### Rhubarb Custard Cake
+
+#### Ingredients:
+
+> ```
+> Two-layer yellow cake mix
+> 4 cups chopped rhubarb
+> 1 cup granulated sugar
+> 1 pint whipping cream (2 cups)
+> ```
+
+#### Procedure:
+
+> Prepare batter for cake mix according to package directions; turn into greased and
+> floured 9x13" pan. Dump the chopped rhubarb on top of the cake batter. Sprinkle the
+> sugar on top of the rhubarb. Pour the whipping cream (unwhipped) over the sugar. Bake at
+> 350 for 50-60 minutes, until cake springs back when lightly touched.
+>
+> Cream, sugar, and rhubarb sink to bottom, forming a custard layer. Makes 1-18
+> (depending on how you cut it!!) dee-vine servings.
+
+---
+
+### Rhubarb Dump Cake
+
+#### Ingredients:
+
+> ```
+> 5 cups rhubarb diced
+> 1 cup sugar
+> 1 package white cake mix
+> 3 ounces raspberry gelatin powder
+> 3 cups miniature marshmallows
+> 2 eggs
+> water as needed for mix
+> ```
+
+#### Procedure:
+
+> Arrange rhubarb in bottom of 9x13 pan. Sprinkle with sugar and gelatin. Cover with
+> marshmallows. Prepare cake mix using 2 eggs and required amount of water. Spread batter
+> over the mixture. Bake at 350 for 50-55 minutes. Serve warm with whipped cream.
+
+---
+
+### Rhubarb and Ginger Cake
+
+Among the shelfloads of imported exotics, it's easy to overlook common or garden
+rhubarb. Yet this highly underrated 'fruit' has much to recommend it. Heather Mairs thinks
+pink.
+
+#### Ingredients:
+
+> ```
+> 1 1/2 1b or 600 g fresh rhubarb
+> 4 oz or 100 g butter
+> 3 oz or 75 g sugar plus extra for sprinkling
+> 2 free-range eggs
+> 4 oz or 100 g flour
+> 1 tsp or 5 ml ground ginger
+>
+> For the topping:
+>
+> 3 oz or 75 g butter
+> 4 oz or 100 g flour
+> 2 oz or 50 g sugar
+> icing sugar to finish
+> ```
+
+#### Procedure:
+
+> Preheat the oven to 180C/350F/Gas mark 4. Prepare the rhubarb by trimming off the leafy
+> tops and the pale pink root slivers at the base of each stalk. Rinse and chop into 1in/2cm
+> chunks.
+>
+> Cream the butter and sugar together and when light and fluffy add the eggs one at a
+> time heating well. Fold in the flour and the ground ginger. Spoon the mixture into a
+> greased and lined 8in tin. Cover with the prepared rhubarb and sprinkle with sugar.
+>
+> Make the topping by rubbing the butter into the flour until it resembles breadcrumbs
+> and stirring in the sugar. Spoon over the rhubarb. Bake for 3/4 hour until firm and
+> springy to the touch. Allow to cool and dust with icing sugar before serving.
+
+---
+
+### Rhubarb Lemon Cake Roll
+
+#### Ingredients:
+
+> ```
+> For filling
+>
+> 1 pound rhubarb, chopped (about 4 cups)
+> 1/2 cup granulated sugar
+> 1 teaspoon unflavored gelatin
+> 1 tablespoon cold water
+>
+> For cake
+>
+> 4 large eggs, separated
+> 1/2 cup granulated sugar
+> 2 teaspoons freshly grated lemon zest
+> 1 teaspoon vanilla
+> 1/4 teaspoon salt
+> 1/4 cup all-purpose flour
+> 1/4 cup cornstarch
+> confectioners' sugar for dusting
+>
+> For lemon syrup
+>
+> 2 tablespoons granulated sugar
+> 1 tablespoon fresh lemon juice
+> 1 tablespoon water
+>
+> For lemon glaze
+>
+> 1/2 cup confectioners' sugar
+> 1 tablespoon fresh lemon juice
+> ```
+
+#### Procedure:
+
+> Make filling:
+>
+> In a heavy saucepan cook rhubarb with sugar over moderate heat, stirring often, 20 to
+> 25 minutes, or until rhubarb is a thick purÚe (about 1 1/2 cups). In a small bowl
+> sprinkle gelatin over water and let soften 1 minute. Add gelatin to rhubarb and stir over
+> low heat 1 minute, or until gelatin is dissolved. Transfer filling to a metal bowl set in
+> a bowl of ice and cold water and stir occasionally until cooled and thickened.
+>
+> Make cake:
+>
+> Preheat oven to 350­F. Line the bottom of a greased jelly-roll pan, 15 1/2 by 10 1/2
+> by 1 inch, with foil. Grease foil and dust with flour, knocking out excess.
+>
+> In a bowl with an electric mixer beat egg yolks, 1/4 cup of the granulated sugar, zest,
+> and vanilla until thick and pale and mixture forms a ribbon when beaters are lifted.
+>
+> In a large bowl with cleaned beaters beat egg whites with salt until they hold soft
+> peaks. Beat in the remaining 1/4 cup granulated sugar gradually and beat whites until they
+> hold stiff peaks.
+>
+> Stir one third of whites into yolk mixture to lighten it and fold in remaining whites
+> gently but thoroughly. Sift flour and cornstarch over batter and fold in until batter is
+> just combined.
+>
+> Spread batter evenly in prepared pan and bake in middle of oven 6 to 9 minutes, or
+> until cake is lightly colored and springs back when pressed lightly.
+>
+> Dust a kitchen towel generously with confectioners' sugar and invert cake onto it.
+> Remove foil carefully from cake. Starting with a long side, roll up cake loosely and
+> gently in the towel and cool 30 minutes.
+>
+> Make lemon syrup:
+>
+> In a very small saucepan bring all ingredients to simmer, stirring until sugar is
+> dissolved. Keep syrup warm.
+>
+> Assemble cake:
+>
+> Unroll cake carefully and brush with half of the warm syrup. Spread cake with filling
+> and reroll cake carefully. Transfer cake to a platter, seam side down, and brush with
+> remaining syrup. Chill roll, covered loosely, at least 2 hours or overnight.
+>
+> Make lemon glaze:
+>
+> In a small bowl stir together sugar and lemon juice to make a pourable glaze.
+>
+> Transfer glaze to a small resealable plastic bag and snip one corner to make a small
+> hole. Trim ends of cake diagonally and squeeze glaze decoratively over cake.
+>
+> Serve cake, sliced crosswise, with white chocolate toasted almond semifreddo (recipe
+> follows).
+
+---
+
+### White Chocolate Toasted Almond Semifreddo (mousse)
+
+Serve with Rhubarb Lemon Cake Roll (above)
+
+#### Ingredients:
+
+> ```
+> a scant cup sliced almonds (3 1/2 ounces), toasted lightly
+> 1/4 teaspoon salt
+> 1 tablespoon unsalted butter
+> 6 ounces fine-quality white chocolate, chopped
+> 2 large eggs
+> 1/3 cup sugar
+> 1 teaspoon vanilla
+> 1/4 teaspoon almond extract
+> 1 1/2 cups chilled heavy cream
+> ```
+
+#### Procedure:
+
+> Line a metal loaf pan, 8 1/2 by 4 1/2 by 2 1/2 inches, with plastic wrap, leaving a
+> 2-inch overhang on ends, and chill in freezer.
+>
+> In a skillet cook almonds with salt in butter over moderately low heat, stirring, until
+> almonds are coated well, about 1 minute. Chill almonds until cold.
+>
+> In a metal bowl set over a pan of hot but not simmering water melt chocolate, stirring
+> occasionally, and remove bowl from heat.
+>
+> In another metal bowl beat eggs with sugar to combine. Set bowl over a pan of simmering
+> water and beat until thick and pale and mixture registers 140­F. on an instant-read
+> thermometer. Continue beating over simmering water 3 minutes (for egg safety) and remove
+> from heat. Beat in chocolate, vanilla, and almond extract.
+>
+> In another bowl beat cream until it just holds stiff peaks and fold into egg mixture
+> gently but thoroughly. Fold in almonds and pour mixture into prepared pan. Cover pan with
+> plastic wrap and freeze semifreddo 8 hours or overnight.
+>
+> Unmold semifreddo onto a platter, discarding plastic wrap, and cut into thick slices.
+> Cut slices crosswise into thirds and serve with rhubarb lemon cake roll. Serve 6 to 8.
+
+---
+
+### Rhubarb Meringue Torte
+
+#### Ingredients:
+
+> ```
+> 4 Egg whites
+> 1/4 ts Cream of tartar
+> 1 c Sugar
+> 3 1/2 c Rhubarb sauce, thickened*
+> ```
+
+#### Procedure:
+
+> One day before serving: In medium sized bowl, with electric mixer at high speed, beat
+> whites and cream of tartar until soft peaks form. Gradually add sugar, beating until sugar
+> dissolves and stiff peaks form. Heat oven to 225F and line two baking sheets with greased
+> aluminum foil. Draw 3, 8 inch circles. Using a pastry bag, with star tip, pipe a border,
+> inside the edge of each circle, on baking sheets. Do not extend beyond the circle. On one
+> circle, pipe a second border inside the first. Divide remaining meringue into centers of
+> circles. With small spatula, spread meringue to fill centers of circles and to touch shell
+> borders. Bake meringues 3-4 hours or until crisp. Turn off oven. Allow meringues to stand
+> in oven several hours or overnight. An hour before serving, place meringue layer with
+> single border on serving plate. Top with one third of chilled rhubarb sauce. Repeat with
+> second single-border meringue and one third of sauce. Top with double-border meringue and
+> remaining sauce. Cover torte carefully and refrigerate until read to serve.
+
+---
+
+### Rhubarb Peekaboo
+
+#### Ingredients:
+
+> ```
+> 1 pound (4 cups) rhubarb
+> 1 cup sugar
+> 1 teaspoon grated lemon rind
+> 1 package white cake mix
+> ```
+
+#### Procedure:
+
+> Mix cake as directed on package. Pour batter into greased baking pan, 71/2 inches by 12
+> inches. Top with diced, unpeeled rhubarb and grated lemon rind. Sprinkle sugar over the
+> top. Bake at 350 degrees for 40 to 45 minutes.
+>
+> As the Peekaboo bakes, the rhubarb goes to the bottom, forming a sauce and the cake
+> rises to the top. Sprinkle top of cake with powdered sugar. Serve warm with cream.
+
+---
+
+### Rhubarb pudding cake
+
+#### Ingredients:
+
+> ```
+> The cake
+>
+> 1    Egg, beaten
+> 1 1/2 c  Sugar
+> 2 T  Shortening
+> 1/2 c  Milk
+> 1 1/4 c  Flour
+> 3 1/2 t  Baking powder
+> 1/2 t  Salt
+>
+> The topping
+>
+> 3 c  Diced Rhubarb
+> 1 c  Sugar (heaping cup)
+> 2 c  Boiling water
+> ```
+
+#### Procedure:
+
+> Combine cake recipe ingredients, and mix well. Spread in well greased 9x13 pan. (You
+> can use 8-9 inch square pan if you like the cake to be thicker). Combine Topping
+> Ingredients, and pour over cake batter. Bake at 400 degrees for 25 minutes or until cake
+> is golden brown. Note: Even people who say they hate rhubarb like this cake-you don't have
+> to tell them what is in it until after they eat it.
+
+---
+
+### Rhubarb pudding cake
+
+#### Ingredients:
+
+> ```
+> Two-layer yellow cake mix
+> 4 cups chopped rhubarb
+> 1 cup granulated sugar
+> 1 pint whipping cream (2 cups)
+> ```
+
+#### Procedure:
+
+> Prepare batter for cake mix according to package directions; turn into greased and
+> floured 9x13S pan. Dump the chopped rhubarb on top of the cake batter. Sprinkle the sugar
+> on top of the rhubarb. Pour the whipping cream (unwhipped) over the sugar. Bake at 350!
+> for 50-60 minutes, until cake springs back when lightly touched.
+>
+> Cream, sugar, and rhubarb sink to bottom, forming a custard layer. Makes 1-18
+> (depending on how you cut it!!) dee-vine servings.
+
+---
+
+### Rhubarb Pudding Cake
+
+#### Ingredients:
+
+> ```
+> 4 c. diced rhubarb
+> 1 c. sugar
+> 3/4 c. water
+> 2 Tbl. cornstarch
+>
+> 1/4 c. shortening or butter
+> 1/2 c. sugar
+> 1 egg
+> 1/2 tsp. vanilla
+> 1 c. flour
+> 2 tsp. baking powder
+> 1/4 tsp. salt
+> 1/2 c. milk
+> ```
+
+#### Procedure:
+
+> Cook rhubarb, 1 cup sugar and 1/2 cup of water until rhubarb is tender. Dissolve
+> cornstarch in remaining 1/4 cup water and stir into hot rhubarb mixture until it thickens.
+> Keep sauce hot. Cream shortening and 1/2 cup sugar. Beat in egg and vanilla. Sift together
+> flour, baking powder and salt. Add alternately with milk to creamed mixture. Pour batter
+> into greased 9x13-inch glass dish. Spoon hot rhubarb sauce over batter. Bake at 350
+> degrees for 40 minutes. Sprinkle with powdered sugar. Serves 6.
+
+---
+
+### Rhubarb Shortcake
+
+#### Ingredients:
+
+> ```
+> Rhubarb
+> Sugar
+> 1 1/2 cups biscuit mix
+> 1 TBS sugar
+> 1 TBS grated orange rind
+> 3 TBS melted butter
+> 1/3 cup milk
+> ```
+
+#### Procedure:
+
+> Mix 1/4 cup of sugar with every cup of rhubarb cut into 1-inch pieces. Let stand an
+> hour or two to bring out the juices. You don't need to add water. Cook over low heat,
+> covered, just until the rhubarb is a bit tender. This will be only about 10 minutes,
+> depending on the heat. Don't overcook.
+>
+> Now you have a base for rhubarb cobbler. Make the shortcake recipe on the Bisquick box,
+> or this one:
+>
+> Mix up biscuit mix, 1 tbs sugar, grated orange rind,  melted butter, cup milk.
+> Drop by spoonfuls onto 4-5 cups of boiling-hot rhubarb in a deep baking dish (reheat if
+> it's cooled--it must be hot so the dough won't be slimy). Sprinkle dough with additional
+> sugar for sparkle. Bake in a 400 oven for 30 minutes.
+
+---
+
+### Rhubarb Sour Cream Cake
+
+#### Ingredients:
+
+> ```
+> 4 Tablespoons Butter
+> 1 1/2 Cups Firmly packed brown sugar
+> 1 Egg
+> 1 Tablespoon Vanilla
+> 2 1/2 Cups Flour
+> 1 Teaspoon Baking soda
+> 1 Teaspoon Salt
+> 1 Cup Sour cream
+> 4 Cups Rhubarb cut into 1/2" pieces
+> 1/2 Cup Sugar
+> 1/2 Teaspoon Nutmeg
+> ```
+
+#### Procedure:
+
+> Cream butter and brown sugar until fluffy. Beat in egg and vanilla. Sift flour with
+> baking soda and salt. Add to mixture. Fold in sour cream and rhubarb. Spoon into greased
+> 9" X 13" pan. Bake at 350 F for 40 minutes.
+
+---
+
+### Rhubarb Strawberry Coffee Cake
+
+#### Ingredients:
+
+> ```
+> FILLING:
+>
+> 3 c. fresh or frozen rhubarb
+> 1 (16 oz.) pkg. frozen sliced sweetened strawberries, thawed
+> 2 tbsp. lemon juice
+> 1 c. sugar
+> 1/3 c. cornstarch
+>
+> CAKE:
+>
+> 3 c. flour
+> 1 c. sugar
+> 1 tsp. baking soda
+> 1 tsp. baking powder
+> 1 tsp. salt
+> 1 c. butter or margarine
+> 1 c. buttermilk
+> 2 eggs, slightly beaten
+> 1 tsp. vanilla
+>
+> TOPPING:
+>
+> 3/4 c. sugar
+> 1/2 c. flour
+> 1/4 c. butter or margarine
+> ```
+
+#### Procedure:
+
+> In a saucepan, combine rhubarb, cut in 1 inch pieces and add strawberries. Cook,
+> covered, about 5 minutes. Add lemon juice. Combine the sugar and cornstarch. Add to
+> rhubarb mixture. Cook and stir 4 to 5 minutes or until thickened and bubbly. Cool. In
+> mixing bowl, stir together flour, sugar, baking soda, baking powder and salt. Cut in
+> butter or margarine until it resembles fine crumbs. Beat together buttermilk, eggs and
+> vanilla. Add to the dry ingredients. Stir to moisten. Spread half the batter in a greased
+> 13 x 9 x 2 inch pan. Spread the cooled filling over the batter in pan. Spoon remaining
+> batter in small mounds atop the filling. Combine the sugar and flour. Cut in butter or
+> margarine to make fine crumbs. Sprinkle crumbs over the batter in pan. Bake at 350 degrees
+> for 40 to 45 minutes. Serves 12 to 15.
+
+---
+
+### Rhubarb Swirl Cheesecake
+
+#### Ingredients:
+
+> Crust:   
+>   
+> 1 box chocolate icebox cookies (Nabisco Famous Chocolate Wafers)   
+> 1/2 t cinnamon   
+> 1/2 c melted butter or margarine   
+>   
+> Filling:   
+>   
+> 12 oz cream cheese, regular or Kraft's Neufchatel   
+> 2 eggs   
+> 1/2 C minus 1 T sugar   
+> 1 t vanilla   
+> 1 c Reduced Rhubarb Sauce (see below)   
+>   
+> Sauce:   
+>   
+> 3 c chopped fresh rhubarb   
+> 4 T water   
+> 4 T sugar
+
+#### Procedure:
+
+> Crust:
+>
+> In a bowl, mix together two cups crushed icebox cookies with cinnamon and butter until
+> thoroughly blended. Press into a buttered nine-inch pie pan, covering bottom and sides and
+> bringing crumbs up evenly to the rim. Chill in the refrigerator before filling.
+>
+> Preheat oven to 350­F.
+>
+> Filling:
+>
+> With a mixer, beat cream cheese, eggs, sugar and vanilla together until smooth and
+> creamy. Pour into prepared crust. Gently place dollops of rhubarb sauce on top of the
+> mixture, and swirl into the cheese mixture with a table knife. Bake for 20 to 25 minutes,
+> or until the outer edge is firm but the center is not quite set. Cool, then chill at least
+> six hours before serving.
+>
+> Sauce:
+>
+> Combine rhubarb, water and sugar in a small saucepan and bring to a boil. Reduce to a
+> simmer and cook, stirring occasionally, until rhubarb softens and breaks down. Uncover,
+> cook (stirring occasionally) until sauce is reduced to one cup. Chill.
+
+---
+
+### Rhubarb Upside-Down Cake
+
+#### Ingredients:
+
+> ```
+> TOPPING:
+>
+> 1/4 cup margarine (I use no sodium / no cholesteral)
+> 1 cup brown sugar
+> 4-6 stalks rhubarb
+>
+> CAKE BATTER:
+>
+> 1 cup all purpose flour
+> 3/4 cup white sugar
+> 1/4 cup oil
+> 1/2 cup skim milk
+> 1-1/2 teaspoons baking powder
+> 2 egg whites (unbeaten)
+> 1/2 teaspoon vanilla extract
+> ```
+
+#### Procedure:
+
+> Cut fresh rhubarb into approximately 1/2 inch long pieces (extra cut rhubarb can be
+> frozen - just put it in a plastic bag).
+>
+> Pre-heat oven to 350 F. In an eight inch square cake pan: melt 1/2 stick margarine -
+> This can be done in the oven while pre-heating it.
+>
+> Brush the sides of the pan with the melted margarine so the cake will not stick.
+>
+> Coat the bottom of the pan with 1/4 inch layer of brown sugar (about 1 cup).
+>
+> Cover the layer of brown sugar with the 1/2 inch pieces of rhubarb. Cover the entire
+> bottom of the pan - (I prefer to place the pieces so the cut sides are face up and down).
+>
+> Mix cake batter: combine the flour and sugar then add the oil and 1/4 cup of the milk.
+> Stir until the flour is damp - then beat for one minute. Stir in the baking powder, the
+> remaining milk, the unbeaten egg whites, and the vanilla. Beat for two minutes. Pour over
+> the rhubarb in the cake pan.
+
+> Bake at 350 F for 35-40 minutes (making sure a cake tester comes out clean. The center
+> section will be the last to cook.)
+>
+> Remove from oven, cool slightly, run a knife around the sides to make sure it will come
+> out cleanly, and invert it onto a serving plate. (If you have never removed an upside-down
+> cake before it can be a little unnerving. You are dealing with hot melted s gar. So, place
+> the serving plate upside-down on the cake - grasp the cake pan and plate together - hold
+> this at arms length while you quickly invert it.
+
+---
+
+### Rhubarb Upside-Down Cake
+
+#### Ingredients:
+
+> ```
+> 3 c. fresh rhubarb in 1 inch pieces
+> 10 lg. marshmallows, halved
+> 1 3/4 c. sugar
+> 2 eggs
+> 1/2 c. shortening
+> 3 t. baking powder
+> 1/2 c. milk
+> 1 3/4 c. flour
+> ```
+
+#### Procedure:
+
+> Arrange rhubarb in a greased 10-inch skillet. Add marshmallows and 3/4 c. sugar. Cream
+> shortening and remaining sugar. Beat in eggs one at a time. Mix dry ingredients together
+> and add alternatively with milk. Pour over rhubarb. Bake in grease skillet 40-50 minutes
+> at 350 degrees. Cool 5 minutes. Loosen edges and invert on serving plate.
+
+---
+
+### Judith's Strange Upside-down Rhubarb Cake-like Thing
+
+#### Ingredients:
+
+> ```
+> 3 cups of rhubarb (cut into 1 inch pieces)
+> ```
+>
+> ```
+> Topping:
+> 1 cup sugar
+> 1 tsp or more cinnamon
+> grated rind and juice of 1 lemon
+> 1 tablespoon flour
+> 3 tablespoons melted butter
+> ```
+>
+> ```
+> Batter:
+> 1 cup flour
+> 1/2 cup sugar
+> 1 tsp baking powder
+> 1/4 tsp salt
+>  1 tablespoon melted butter
+>  1/2 cup milk
+> ```
+
+#### Procedure:
+
+> Preheat oven to 425F­. Thoroughly grease 8" casserole dish and cover with
+>
+> Place rhubarb in dish. Sprinkle with topping ingredients (topping goes on before
+> batter, its an upside down cake). No need to mix them first.
+>
+> Prepare the following batter by mixing the batter ingredients. Beat the batter and pour
+> it over rhubarb in pan. Bake 30 minutes. Reverse onto plate.
+
+---
+
+### Rhubarber Kuchin (rhubarb cake)
+
+#### Ingredients:
+
+> ```
+> 1 1/2 to 2 pounds rhubarb, cut unto 1/2"pieces
+> confectioner's sugar
+>
+> Dough:
+>
+> 1/2 cup butter, softened
+> 1 3/4 cups flour
+> 2/3 cup sugar
+> 2 teaspoons baking soda
+> 2 eggs
+> 2 tablespoons milk
+> 1/4 teaspoon lemon extract
+>
+> Struesel:
+>
+> 1 cup flour
+> 6 tablespoons butter, softened
+> 1/2 cup sugar
+> 1/2 teaspoon vanilla
+> ```
+
+#### Procedure:
+
+> Combine struesel ingredients and work with hands until crumbly. Cream butter, sugar and
+> eggs; add lemon. Sift flour and baking powder; add alternately with milk. Pour into 2
+> greased 9" cake pans and spread dough with spoon. Top with rhubarb and then with
+> struesel. Bake at 350F 40-45 minutes. Sprinkle with confectioner's sugar.
+
+---
+
+### River Road Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 50.00 mL butter or margarine
+> 175.00 mL brown sugar
+> 1.00 egg
+> 2.00 mL vanilla
+> 250.00 mL all-purpose flour
+> 2.00 mL baking soda
+> 2.00 mL salt
+> 100.00 mL sour milk or buttermilk
+> 375.00 mL fresh rhubarb or frozen rhubarb, thawed
+> 15.00 mL flour
+> 25.00 mL sugar
+> 2.00 mL cinnamon
+> 0.00 buttermilk (how much?)
+> ```
+
+#### Procedure:
+
+> Cream butter or margarine and brown sugar; add egg and vanilla and mix well. Combine
+> 250 mL flour, baking soda and salt; add alternately with sour milk or buttermilk. Combine
+> rhubarb with 15 mL flour; add to batter. Pour into greased 1.5 L round cake pan (23 cm).
+> Combine sugar and cinnamon. Sprinkle over batter. Bake at 180­C until skewer inserted in
+> center comes out clean (30 to 40 min). Makes 1 cake.
+
+---
+
+### Strawberry Rhubarb Cheesecake
+
+#### Ingredients:
+
+> ```
+> CRUST:
+>
+> 3/4 C. margarine, softened
+> 1/3 C. brown sugar, packed
+> 1 1/2 C. flour
+> 1/2 C. pecans, chopped
+>
+> FILLING:
+>
+> 2 (8 oz.) pkg. cream cheese, softened
+> 2 eggs
+> 3/4 C. sugar
+> 2 tsp. vanilla
+>
+> TOPPING:
+>
+> 3 C. rhubarb, fresh or frozen, coarsely chopped
+> 1 C. sliced fresh strawberries
+> 1 C. sugar
+> 1/4 C. water
+> 4 tsp. cornstarch
+> ```
+
+#### Procedure:
+
+> CRUST:
+>
+> Combine margarine, brown sugar, flour and pecans. Press on bottom of lightly greased 9
+> x 13" pan. Bake at 375 degrees for 10 - 12 min., until lightly browned.
+>
+> FILLING:
+>
+> Beat filling ingredients together until smooth. Pour over baked crust. Return to oven
+> and bake 20 min., until filling is set. Cool slightly.
+>
+> TOPPING:
+>
+> In a large saucepan combine rhubarb, sugar and strawberries. Cook over medium heat
+> until hot and bubbly. Whisk together water and cornstarch; add mixture to rhubarb. Cook
+> another 2 - 3 minutes until mixture thickens. Cool slightly. Spread over baked cheesecake.
+> Refrigerate 8 hours or overnight. Cut into squares.
+>
+> Makes about 12 - 16 servings.
+
+---
+
+### Strawberry Rhubarb Coffee Cake
+
+#### Ingredients:
+
+> ```
+> Filling:
+>
+> 3 c Sliced fresh or frozen rhubarb, 1 inch pieces
+> 1 Qt. Fresh strawberries, mashed
+> 2 tb Lemon juice
+> 1 c Sugar
+> 1/3 c Cornstarch
+>
+> Cake:
+>
+> 3 c All-purpose flour
+> 1 c Sugar
+> 1 ts Baking powder
+> 1 ts Baking soda
+> 1/2 ts Salt
+> 1 c Butter or margarine, cut into pieces
+> 1 1/2 c Buttermilk
+> 2 Eggs
+> 1 ts Vanilla extract
+>
+> Topping:
+>
+> 1/4 c Butter or margarine
+> 3/4 c All-purpose flour
+> 3/4 c Sugar
+> ```
+
+#### Procedure:
+
+> Filling:
+
+> In a large saucepan combine rhubarb, strawberries and lemon juice. Cover and cook over
+> medium heat about 5 minutes. Combine sugar and cornstarch; stir into saucepan. Bring to a
+> boil, stirring constantly until thickened; remove from heat and set aside.
+>
+> In a large bowl, combine flour, sugar, baking powder, baking soda and salt. Cut in
+> butter until mixture resembles coarse crumbs. Beat buttermilk, eggs and vanilla; stir into
+> crumb mixture. Spread half of the batter evenly into a greased 13" x 9" x
+> 2" baking dish. Carefully spread filling on top. drop remaining batter by
+> tablespoonfuls over filling.
+>
+> Topping:
+>
+> Melt butter in a saucepan over low heat. Remove from heat; stir in flour and sugar
+> until mixture resembles coarse crumbs. Sprinkle over batter. Lay foil on lower rack to
+> catch any juicy fruit spillovers. Bake at 350 degrees, for 40-45 minutes. Cool in pan. Cut
+> into squares. Yield: 16-20 servings.
+
+---
+
+### Tom Famous Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 1-1/4 cups sugar
+> 1/2 cup vegetable shortening
+> 2 eggs
+> 1/2 cup milk
+> 1 cup wheat flour
+> 1 cup rye flour
+> 1 tsp. baking soda
+> 1 tsp. cinnamon
+> 1/4 tsp. ground cloves
+> 1/4 tsp. salt
+> 1/2 tsp. allspice
+> 2 cups rhubarb, sliced
+>
+> Topping:
+>
+> 1/4 cup brown sugar
+> 1 tsp. cinnamon
+> 1/2 cup coarsely chopped nuts
+> ```
+
+#### Procedure:
+
+> Cream sugar, shortening and eggs. Add milk. Sift flour, measure and add soda, spices
+> and salt. Mix well. Stir in rhubarb. Pour into 8?x11? pan and sprinkle with topping
+> mixture.
+
+> Bake in preheated 350­ oven for 30-35 minutes.
+
+---
+
+### Yogurt Rhubarb Cake
+
+#### Ingredients:
+
+> ```
+> 2 tablespoons butter, or margarine
+> 1/2 cup brown sugar, packed
+> 1/2 cup chopped pecans
+> 1/4 cup flour
+> 1 teaspoon cinnamon
+> 1 cup whole wheat flour
+> 1 cup flour
+> 1 1/2 teaspoons baking powder
+> 1 teaspoon cinnamon
+> 1/2 teaspoon baking soda
+> 1/2 teaspoon salt
+> 1 carton cherry-vanilla yogurt, 8 oz
+> 3 tablespoons milk
+> 1 cup brown sugar, packed
+> 1/2 cup butter, or margarine
+> 2 eggs
+> 1 teaspoon vanilla
+> 2 1/2 cups fresh or frozen rhubarb, (thawed) chopped
+> ```
+
+#### Procedure:
+
+> In a small bowl, combine first 5 ingredients, and set aside for topping.
+>
+> In a medium mixing bowl, stir together the flours, baking powder, cinnamon, baking soda
+> and salt. Set aside.
+>
+> Combine yogurt and milk. In a large mixing bowl, beat together brown sugar and butter.
+> Add eggs and vanilla. Beat until fluffy. To this mixture, alternately add the 2-flour
+> mixture and the yogurt mixture, beating until well blended. Fold in the rhubarb. Pour
+> batter into a greased and floured 9x13-inch baking dish or pan. Sprinkle topping over
+> batter. Bake at 350­F for 45 to 50 minutes, or until done. Serve warm or cool.
+
+---
+
+[[Home](http://www.rhubarbinfo.com)]
+[[Recipes](http://www.rhubarbinfo.com:80/recipe-index.html)]
+[[Previous page](http://www.rhubarbinfo.com:80/recipe-bread.html)]
+[[Next page](http://www.rhubarbinfo.com:80/recipe-cobbler.html)]
+[[About](http://www.rhubarbinfo.com:80/rhubarb-info.html)]
+[[Contribute](http://www.rhubarbinfo.com:80/rhubarb-helpme.html)]  
+*© RhubarbInfo, 1996-2003*  
+Updated on September 1, 2004  
+Email: dan at rhubarb info dot com

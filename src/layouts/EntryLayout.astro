@@ -1,0 +1,33 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+interface Props {
+  title: string;
+  description?: string;
+  sourceUrl?: string;
+  archivedAt?: string;
+  published?: string;
+  publishedRaw?: string;
+  heroImage?: string;
+}
+const { title, description, sourceUrl, archivedAt, published, publishedRaw, heroImage } = Astro.props;
+const archivedDate = archivedAt ? archivedAt.slice(0, 10) : null;
+const waybackUrl = sourceUrl && archivedAt
+  ? `https://web.archive.org/web/${archivedAt.replaceAll(/[-:TZ]/g, "")}/${sourceUrl}`
+  : null;
+// Site-absolute /_assets/ paths need the Astro base prefix; external URLs pass through.
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const heroSrc = heroImage?.startsWith("/_assets/") ? base + heroImage : heroImage;
+---
+<BaseLayout title={title} description={description}>
+  <article>
+    <h1>{title}</h1>
+    <p class="meta">
+      {published || publishedRaw ? <>Published {published ?? publishedRaw} · </> : null}
+      {archivedDate ? <>Archived {archivedDate} · </> : null}
+      {sourceUrl ? <a href={sourceUrl}>Original URL</a> : null}
+      {waybackUrl ? <> · <a href={waybackUrl}>Wayback snapshot</a></> : null}
+    </p>
+    {heroSrc && <img src={heroSrc} alt="" />}
+    <slot />
+  </article>
+</BaseLayout>

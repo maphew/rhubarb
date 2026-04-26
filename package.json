@@ -1,0 +1,19 @@
+{
+  "name": "rhubarb-compendium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An archive-rescue rebuild of www.rhubarbinfo.com (The Rhubarb Compendium), preserving recipes, growing guides, and rhubarb lore that vanished after 2024-10-23.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "build:ghpages": "SITE=https://maphew.github.io BASE=/rhubarb astro build",
+    "build:fly": "SITE=https://rhubarb.fly.dev BASE=/ astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

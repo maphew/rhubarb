@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Astro / Node
+/node_modules/
+/dist/
+/.astro/
+
+# Build / data artifacts
+/raw/
+/raw_download.log
+/tools/cdx_full.json
+/tools/cdx_raw.json

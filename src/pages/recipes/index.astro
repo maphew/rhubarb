@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const items = (await getCollection("recipes"))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<BaseLayout title="Recipes" description={`${items.length} rhubarb recipes preserved from www.rhubarbinfo.com`}>
+  <h1>Recipes ({items.length})</h1>
+  <ul class="listing">
+    {items.map((r) => (
+      <li>
+        <a href={`${import.meta.env.BASE_URL}recipes/${r.id}/`}>{r.data.title}</a>
+        {r.data.description && <span class="desc">{r.data.description}</span>}
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

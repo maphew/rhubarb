@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const recipes = await getCollection("recipes");
+const articles = await getCollection("articles");
+const varieties = await getCollection("varieties");
+
+const featuredRecipes = recipes
+  .sort((a, b) => (b.data.published ?? "").localeCompare(a.data.published ?? ""))
+  .slice(0, 12);
+const featuredArticles = articles
+  .sort((a, b) => (b.data.published ?? "").localeCompare(a.data.published ?? ""))
+  .slice(0, 8);
+---
+<BaseLayout title="The Rhubarb Compendium" description="A rescued archive of www.rhubarbinfo.com — recipes, growing guides, varieties, and rhubarb lore preserved from the Internet Archive.">
+  <p>
+    The Rhubarb Compendium was a treasured corner of the web devoted to all things
+    rhubarb — recipes, varieties, growing guides, history, and lore. The original
+    domain went dark on 2024-10-23, replaced by a casino redirect.
+    This is a non-commercial preservation effort, rebuilt from
+    <a href="https://web.archive.org/web/2024*/rhubarbinfo.com">Internet Archive</a>
+    snapshots.
+  </p>
+
+  <h2>Recipes ({recipes.length})</h2>
+  <ul class="listing">
+    {featuredRecipes.map((r) => (
+      <li>
+        <a href={`${import.meta.env.BASE_URL}recipes/${r.id}/`}>{r.data.title}</a>
+        {r.data.description && <span class="desc">{r.data.description}</span>}
+      </li>
+    ))}
+  </ul>
+  <p><a href={`${import.meta.env.BASE_URL}recipes/`}>All recipes →</a></p>
+
+  <h2>Articles ({articles.length})</h2>
+  <ul class="listing">
+    {featuredArticles.map((a) => (
+      <li>
+        <a href={`${import.meta.env.BASE_URL}articles/${a.id}/`}>{a.data.title}</a>
+        {a.data.description && <span class="desc">{a.data.description}</span>}
+      </li>
+    ))}
+  </ul>
+  <p><a href={`${import.meta.env.BASE_URL}articles/`}>All articles →</a></p>
+
+  {varieties.length > 0 && (
+    <>
+      <h2>Varieties ({varieties.length})</h2>
+      <p><a href={`${import.meta.env.BASE_URL}varieties/`}>Browse varieties →</a></p>
+    </>
+  )}
+</BaseLayout>

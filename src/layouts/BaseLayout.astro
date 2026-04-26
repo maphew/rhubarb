@@ -1,0 +1,99 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+const fullTitle = title === "The Rhubarb Compendium"
+  ? title
+  : `${title} | The Rhubarb Compendium`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={import.meta.env.BASE_URL}>
+        <span class="leaf">🥬</span> The Rhubarb Compendium
+        <span class="tagline">— archive rescue</span>
+      </a>
+      <nav>
+        <a href={`${import.meta.env.BASE_URL}recipes/`}>Recipes</a>
+        <a href={`${import.meta.env.BASE_URL}articles/`}>Articles</a>
+        <a href={`${import.meta.env.BASE_URL}varieties/`}>Varieties</a>
+        <a href={`${import.meta.env.BASE_URL}about/`}>About</a>
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <p>
+        Originally published at <code>www.rhubarbinfo.com</code>.
+        Preserved here from
+        <a href="https://web.archive.org/web/2024*/rhubarbinfo.com">Internet Archive</a>
+        snapshots after the domain went dark on 2024-10-23.
+      </p>
+      <p>
+        This is a non-commercial preservation effort. Source:
+        <a href="https://github.com/maphew/rhubarb">github.com/maphew/rhubarb</a>.
+      </p>
+    </footer>
+
+    <style is:global>
+      :root {
+        --bg: #fcfbf5;
+        --fg: #2a221d;
+        --accent: #d52a33;
+        --accent-deep: #7d181e;
+        --muted: #6b5c52;
+        --rule: #e8dccd;
+        --max-w: 44rem;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        background: var(--bg);
+        color: var(--fg);
+        font: 17px/1.6 Georgia, "Palatino Linotype", Palatino, serif;
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { color: var(--accent-deep); text-decoration: underline; }
+      .site-header {
+        border-bottom: 1px solid var(--rule);
+        padding: 0.8rem 1.2rem;
+        display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline;
+        justify-content: space-between;
+      }
+      .brand { color: var(--fg); font-weight: 600; font-size: 1.15rem; }
+      .brand .leaf { filter: hue-rotate(20deg); }
+      .brand .tagline { color: var(--muted); font-size: 0.85em; font-weight: normal; }
+      nav { display: flex; gap: 1rem; }
+      main {
+        max-width: var(--max-w);
+        margin: 2rem auto;
+        padding: 0 1.2rem;
+      }
+      h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.4rem; }
+      h2 { margin-top: 2rem; }
+      img { max-width: 100%; height: auto; border-radius: 6px; }
+      blockquote { border-left: 3px solid var(--rule); margin: 1rem 0; padding: 0 1rem; color: var(--muted); }
+      pre, code { font-family: ui-monospace, monospace; }
+      .site-footer {
+        border-top: 1px solid var(--rule);
+        margin-top: 3rem; padding: 1.4rem 1.2rem 2rem;
+        color: var(--muted); font-size: 0.9rem;
+      }
+      .site-footer p { max-width: var(--max-w); margin: 0.4rem auto; }
+      .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.4rem; }
+      .meta a { color: var(--muted); text-decoration: underline; }
+      .listing { list-style: none; padding: 0; }
+      .listing li { padding: 0.6rem 0; border-bottom: 1px solid var(--rule); }
+      .listing li .desc { display: block; color: var(--muted); font-size: 0.92rem; margin-top: 0.2rem; }
+    </style>
+  </body>
+</html>
