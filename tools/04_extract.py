@@ -101,9 +101,12 @@ def looks_like_spam(title: str, slug: str, body_text: str) -> bool:
         return True
     bt = body_text.lower()
     rhubarb_hits = bt.count("rhubarb")
-    # The site is literally The Rhubarb Compendium — any non-trivial body that
-    # never says "rhubarb" once is a hijacked node.
-    if rhubarb_hits == 0 and len(bt) > 200:
+    # The site is literally The Rhubarb Compendium. Any page that never
+    # mentions "rhubarb" is either a hijacked node or a near-empty stub —
+    # neither worth keeping. (Verified against the genuine corpus: every
+    # real page from About through individual recipes mentions the word
+    # at least once.)
+    if rhubarb_hits == 0:
         return True
     spam_hits = len(SPAM_TITLE_RE.findall(bt))
     if rhubarb_hits < 2 and spam_hits >= 3:
