@@ -1,0 +1,40 @@
+---
+title: Nutritional Information
+era: drupal
+collection: articles
+sourceUrl: "http://rhubarbinfo.com/node/242"
+archivedAt: "2019-07-01T00:01:06Z"
+waybackTimestamp: "20190701000106"
+cleanupReason: duplicate-title
+originalCollection: articles
+canonicalFile: nutritional-information-2.md
+---
+
+## Nutritional information
+
+**Rhubarb** is 95% water and contains a fair source of potassium, contributes minor amounts of vitamins, and is low in sodium. Rhubarb's crisp sour stalks are rich in vitamin C, dietary fiber and calcium, although the calcium is combined with oxalic acid and so is not easily absorbed by the body. Rhubarb is somewhat acidic (pH 3.1-3.2) but in most recipes this is normally offset by sugar. One cup diced Rhubarb contains about 26 calories.
+
+Rhubarb Nutritional Information
+
+| Rhubarb Nutritional Information | | |
+| --- | --- | --- |
+| Calories | 20 |  |
+| Calories from fat | 0 | % Daily Value\* |
+| Total Fat | 0 g | 0% |
+| Saturated Fat | 0 g | 0% |
+| Cholesterol | 0 mg | 0% |
+| Sodium | 0 mg | 0% |
+| Total Carbohydrate | 4 g | 1% |
+| Dietary Fiber | 2 g | 6% |
+| Sugars | 1 g |  |
+| Protein | 1 g |  |
+| Vitamin A |  | 0% |
+| Vitamin C |  | 10% |
+| Calcium |  | 8% |
+| Iron |  | 0% |
+| Serving Size : 2/3 cup (85g) | | |
+
+![](/_assets/bca18a75b32f37e2.jpg)
+
+**Rhubarb Tarts**  
+[![](/_assets/a5cf91d49561b8d4.png) photo credit](http://new.rhubarbinfo.com/rhubarb_tarts)

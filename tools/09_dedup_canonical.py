@@ -66,44 +66,67 @@ def parse(p: Path):
     }
 
 
+def archived_num_of(r: dict) -> int:
+    archived = r["fm"].get("archivedAt", "")
+    if not archived:
+        return 0
+    digits = re.sub(r"\D", "", archived)
+    if not digits:
+        return 0
+    try:
+        return int(digits[:14])
+    except ValueError:
+        return 0
+
+
 def canonical_sort_key(r: dict):
-    """Lower is better. Sort ascending and pick index [0] as canonical."""
+    """Original rule key. Lower is better. era > archivedAt > local_imgs > ext_imgs > prose."""
     fm = r["fm"]
-    era = fm.get("era", "")
-    era_rank = ERA_RANK.get(era, 99)
-    archived = fm.get("archivedAt", "")
-    # For drupal, MORE RECENT archivedAt wins -> negate by using neg-string compare;
-    # easier: sort by negative timestamp via reverse string. Since we want max
-    # archivedAt to be "smaller" (preferred), invert with a max-string trick.
-    # Simplest: use -ord-like comparison; we want high archivedAt to be earlier
-    # in sort order. Achieve by negating: use a tuple where the recency component
-    # is a string we negate. Cleanest: invert via lambda for each criterion.
-    # We'll return a tuple where smaller = better:
-    #   (era_rank, -archived_recency, -local_imgs_count, -ext_imgs_count, -prose_len, filename)
-    # archivedAt is like "2020-01-20T07:52:02Z" - lex sort works; we want max => negate.
-    # Python can't negate strings, so transform: represent recency as the negative
-    # of its sortable form. Trick: use the string itself but flip sign by sorting
-    # descending on that field via tuple of (-1, archived) won't work either.
-    # Simplest robust approach: use a list of comparators handled via reverse sort
-    # on each axis. We'll just produce a tuple where we map archived to a number
-    # if possible, else 0; bigger number = more recent = smaller key (negate).
-    archived_num = 0
-    if archived:
-        # Convert "2020-01-20T07:52:02Z" -> integer YYYYMMDDhhmmss
-        digits = re.sub(r"\D", "", archived)
-        if digits:
-            try:
-                archived_num = int(digits[:14])
-            except ValueError:
-                archived_num = 0
+    era_rank = ERA_RANK.get(fm.get("era", ""), 99)
     return (
         era_rank,
-        -archived_num,
+        -archived_num_of(r),
         -len(r["local_imgs"]),
         -len(r["ext_imgs"]),
         -len(r["prose"]),
         r["path"].name,
     )
+
+
+def prose_rich_sort_key(r: dict):
+    """Prose-richest first. Tiebreak by era, local_imgs, archivedAt, filename."""
+    return (
+        -len(r["prose"]),
+        ERA_RANK.get(r["fm"].get("era", ""), 99),
+        -len(r["local_imgs"]),
+        -archived_num_of(r),
+        r["path"].name,
+    )
+
+
+def pick_canonical(group: list[dict], prose_threshold: float = 0.80) -> tuple[dict, dict, str]:
+    """Refined rule.
+
+    Returns (canonical, original_rule_canonical, decision_mode).
+    decision_mode is one of:
+      - "era-candidate" (era candidate prose >= threshold * max_prose)
+      - "prose-richest" (era candidate too thin, fall back to richest)
+
+    Algorithm:
+      1. max_prose = max prose across cluster.
+      2. era_candidate = ranked[0] under original rule.
+      3. If era_candidate.prose >= threshold * max_prose: era wins.
+      4. Else: prose-richest wins (with era/local_imgs/archivedAt tiebreakers).
+    """
+    ranked_original = sorted(group, key=canonical_sort_key)
+    era_candidate = ranked_original[0]
+    max_prose = max(len(r["prose"]) for r in group)
+    if max_prose == 0:
+        return era_candidate, era_candidate, "era-candidate"
+    if len(era_candidate["prose"]) >= prose_threshold * max_prose:
+        return era_candidate, era_candidate, "era-candidate"
+    richest = sorted(group, key=prose_rich_sort_key)[0]
+    return richest, era_candidate, "prose-richest"
 
 
 def slugify_title(title: str) -> str:
@@ -139,11 +162,16 @@ def cluster(rows):
     return {k: v for k, v in by_key.items() if len(v) > 1}
 
 
-def is_risky(canonical: dict, losers: list[dict]) -> list[str]:
+def is_risky(canonical: dict, losers: list[dict], original_canonical: dict, decision_mode: str) -> list[str]:
     """Flag suspicious decisions. Returns list of warning strings."""
     flags = []
     cprose = len(canonical["prose"])
     clocal = len(canonical["local_imgs"])
+    # Disagreement between original era-priority rule and refined rule
+    if original_canonical["path"].name != canonical["path"].name:
+        flags.append(
+            f"rule-change: refined rule picks {canonical['path'].name}; original era-priority would pick {original_canonical['path'].name}"
+        )
     for lo in losers:
         lprose = len(lo["prose"])
         llocal = len(lo["local_imgs"])
@@ -157,28 +185,37 @@ def is_risky(canonical: dict, losers: list[dict]) -> list[str]:
             flags.append(
                 f"loser {lo['path'].name} has {llocal} local imgs vs canonical {clocal}"
             )
+        # Close-call: prose within 10% AND local_imgs >= canonical's
+        if cprose > 0 and 0.90 * cprose <= lprose <= 1.10 * cprose and llocal >= clocal and lo["path"].name != canonical["path"].name:
+            # only flag when era differs (genuine ambiguity)
+            if lo["fm"].get("era") != canonical["fm"].get("era"):
+                flags.append(
+                    f"close-call: loser {lo['path'].name} prose={lprose} local={llocal} ~= canonical prose={cprose} local={clocal} (different eras)"
+                )
     return flags
 
 
-def reason_for_pick(canonical: dict, losers: list[dict]) -> str:
+def reason_for_pick(canonical: dict, losers: list[dict], decision_mode: str, max_prose: int) -> str:
     fm = canonical["fm"]
     era = fm.get("era", "?")
     archived = fm.get("archivedAt", "")
-    parts = [f"era={era}"]
+    cprose = len(canonical["prose"])
+    parts = [f"mode={decision_mode}", f"era={era}"]
     if era == "drupal" and archived:
         parts.append(f"archivedAt={archived}")
-    # If tiebreaker mattered, mention it
+    if max_prose > 0:
+        parts.append(f"prose={cprose} ({cprose/max_prose:.0%} of max {max_prose})")
     same_era = [r for r in [canonical] + losers if r["fm"].get("era") == era]
     if len(same_era) > 1:
         parts.append(
-            f"local_imgs={len(canonical['local_imgs'])}, ext_imgs={len(canonical['ext_imgs'])}, prose={len(canonical['prose'])}"
+            f"local_imgs={len(canonical['local_imgs'])}, ext_imgs={len(canonical['ext_imgs'])}"
         )
     return "; ".join(parts)
 
 
 def write_log(decisions: list[dict], path: Path):
     lines = [
-        "cluster_collection\tcluster_title\tcanonical\tcanonical_era\tcanonical_archivedAt\tcanonical_local_imgs\tcanonical_ext_imgs\tcanonical_prose\tdemoted\tdemoted_details\trisky_flags\treason"
+        "cluster_collection\tcluster_title\tcanonical\tcanonical_era\tcanonical_archivedAt\tcanonical_local_imgs\tcanonical_ext_imgs\tcanonical_prose\tdecision_mode\toriginal_rule_pick\trule_changed\tdemoted\tdemoted_details\trisky_flags\treason"
     ]
     for d in decisions:
         c = d["canonical"]
@@ -189,6 +226,7 @@ def write_log(decisions: list[dict], path: Path):
             for lo in d["losers"]
         )
         risky = " ;; ".join(d["flags"]) if d["flags"] else ""
+        rule_changed = "yes" if d["original_canonical"]["path"].name != c["path"].name else "no"
         lines.append(
             "\t".join([
                 d["collection"],
@@ -199,6 +237,9 @@ def write_log(decisions: list[dict], path: Path):
                 str(len(c["local_imgs"])),
                 str(len(c["ext_imgs"])),
                 str(len(c["prose"])),
+                d["decision_mode"],
+                d["original_canonical"]["path"].name,
+                rule_changed,
                 demoted_names,
                 demoted_details,
                 risky,
@@ -209,36 +250,77 @@ def write_log(decisions: list[dict], path: Path):
 
 
 def write_log_md(decisions: list[dict], path: Path):
-    out = ["# Dedup decisions (dry-run)", ""]
-    out.append(f"Total clusters: {len(decisions)}")
-    out.append(
-        f"Total files demoted: {sum(len(d['losers']) for d in decisions)}"
-    )
+    total_demoted = sum(len(d['losers']) for d in decisions)
     risky_count = sum(1 for d in decisions if d["flags"])
-    out.append(f"Risky / manual-review clusters: {risky_count}")
+    changed_count = sum(1 for d in decisions if d["original_canonical"]["path"].name != d["canonical"]["path"].name)
+
+    out = ["# Dedup decisions (dry-run, refined rule)", ""]
+    out.append("Refined rule: era priority (blogger > recent-drupal > static) wins")
+    out.append("ONLY IF the era candidate's prose is >= 80% of the cluster max.")
+    out.append("Otherwise: pick the prose-richest member, era-then-imgs-then-archivedAt tiebreaks.")
+    out.append("")
+    out.append(f"- Total clusters: {len(decisions)}")
+    out.append(f"- Total files demoted: {total_demoted}")
+    out.append(f"- Choices changed vs. original era-priority rule: {changed_count}")
+    out.append(f"- Risky / manual-review clusters: {risky_count}")
     out.append("")
     out.append("---")
     out.append("")
-    for d in sorted(decisions, key=lambda x: (bool(x["flags"]), x["collection"], x["title"]), reverse=True):
-        c = d["canonical"]
-        cfm = c["fm"]
-        flag_marker = " RISKY" if d["flags"] else ""
-        out.append(f"## [{d['collection']}] {d['title']}{flag_marker}")
+
+    # Section 1: clusters where the choice CHANGED vs. original rule
+    changed = [d for d in decisions if d["original_canonical"]["path"].name != d["canonical"]["path"].name]
+    if changed:
+        out.append("## Clusters where the refined rule CHANGED the choice")
         out.append("")
-        out.append(f"- **Canonical:** `{c['path'].name}` — {d['reason']}")
-        out.append(f"  - era={cfm.get('era','')}, archivedAt={cfm.get('archivedAt','')}, local_imgs={len(c['local_imgs'])}, ext_imgs={len(c['ext_imgs'])}, prose={len(c['prose'])}")
-        out.append("- **Demoted:**")
-        for lo in d["losers"]:
-            lfm = lo["fm"]
-            out.append(
-                f"  - `{lo['path'].name}` — era={lfm.get('era','')}, archivedAt={lfm.get('archivedAt','')}, local_imgs={len(lo['local_imgs'])}, ext_imgs={len(lo['ext_imgs'])}, prose={len(lo['prose'])}"
-            )
-        if d["flags"]:
-            out.append("- **Flags:**")
-            for f in d["flags"]:
-                out.append(f"  - {f}")
+        for d in sorted(changed, key=lambda x: (x["collection"], x["title"])):
+            _emit_cluster(out, d, header_prefix="### ")
+        out.append("---")
         out.append("")
+
+    # Section 2: still-RISKY but unchanged choice
+    still_risky = [d for d in decisions if d["flags"] and d["original_canonical"]["path"].name == d["canonical"]["path"].name]
+    if still_risky:
+        out.append("## Still RISKY (choice unchanged but flagged for review)")
+        out.append("")
+        for d in sorted(still_risky, key=lambda x: (x["collection"], x["title"])):
+            _emit_cluster(out, d, header_prefix="### ")
+        out.append("---")
+        out.append("")
+
+    # Section 3: clean clusters
+    clean = [d for d in decisions if not d["flags"]]
+    if clean:
+        out.append("## Clean clusters (no flags)")
+        out.append("")
+        for d in sorted(clean, key=lambda x: (x["collection"], x["title"])):
+            _emit_cluster(out, d, header_prefix="### ")
+
     path.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def _emit_cluster(out: list[str], d: dict, header_prefix: str = "## "):
+    c = d["canonical"]
+    cfm = c["fm"]
+    flag_marker = " RISKY" if d["flags"] else ""
+    out.append(f"{header_prefix}[{d['collection']}] {d['title']}{flag_marker}")
+    out.append("")
+    out.append(f"- **Canonical:** `{c['path'].name}` — {d['reason']}")
+    out.append(f"  - era={cfm.get('era','')}, archivedAt={cfm.get('archivedAt','')}, local_imgs={len(c['local_imgs'])}, ext_imgs={len(c['ext_imgs'])}, prose={len(c['prose'])}")
+    if d["original_canonical"]["path"].name != c["path"].name:
+        oc = d["original_canonical"]
+        ofm = oc["fm"]
+        out.append(f"- **Original-rule pick (overridden):** `{oc['path'].name}` — era={ofm.get('era','')}, archivedAt={ofm.get('archivedAt','')}, local_imgs={len(oc['local_imgs'])}, ext_imgs={len(oc['ext_imgs'])}, prose={len(oc['prose'])}")
+    out.append("- **Demoted:**")
+    for lo in d["losers"]:
+        lfm = lo["fm"]
+        out.append(
+            f"  - `{lo['path'].name}` — era={lfm.get('era','')}, archivedAt={lfm.get('archivedAt','')}, local_imgs={len(lo['local_imgs'])}, ext_imgs={len(lo['ext_imgs'])}, prose={len(lo['prose'])}"
+        )
+    if d["flags"]:
+        out.append("- **Flags:**")
+        for f in d["flags"]:
+            out.append(f"  - {f}")
+    out.append("")
 
 
 def annotate_frontmatter(text: str, canonical_name: str, collection: str) -> str:
@@ -333,16 +415,20 @@ def main():
 
     decisions = []
     for (coll, title), group in clusters.items():
-        ranked = sorted(group, key=canonical_sort_key)
-        canonical = ranked[0]
-        losers = ranked[1:]
-        flags = is_risky(canonical, losers)
+        canonical, original_canonical, decision_mode = pick_canonical(group)
+        losers = [r for r in group if r["path"].name != canonical["path"].name]
+        # Stable order for losers
+        losers.sort(key=canonical_sort_key)
+        max_prose = max(len(r["prose"]) for r in group)
+        flags = is_risky(canonical, losers, original_canonical, decision_mode)
         decisions.append({
             "collection": coll,
             "title": title,
             "canonical": canonical,
+            "original_canonical": original_canonical,
+            "decision_mode": decision_mode,
             "losers": losers,
-            "reason": reason_for_pick(canonical, losers),
+            "reason": reason_for_pick(canonical, losers, decision_mode, max_prose),
             "flags": flags,
         })
 
@@ -356,17 +442,30 @@ def main():
 
     total_demoted = sum(len(d["losers"]) for d in decisions)
     risky = [d for d in decisions if d["flags"]]
+    changed = [d for d in decisions if d["original_canonical"]["path"].name != d["canonical"]["path"].name]
     print(f"Clusters: {len(decisions)}")
     print(f"Total files that would be demoted: {total_demoted}")
+    print(f"Choices changed vs original era-priority rule: {len(changed)}")
     print(f"Risky / manual-review clusters: {len(risky)}")
     print(f"Decision log written to:")
     print(f"  {tsv_path.relative_to(ROOT)}")
     print(f"  {md_path.relative_to(ROOT)}")
 
-    if risky:
-        print("\nRisky clusters:")
-        for d in risky:
+    if changed:
+        print("\nClusters where the refined rule CHANGED the canonical:")
+        for d in changed:
             print(f"  [{d['collection']}] {d['title']}")
+            print(f"    refined => {d['canonical']['path'].name} (prose={len(d['canonical']['prose'])})")
+            print(f"    original => {d['original_canonical']['path'].name} (prose={len(d['original_canonical']['prose'])})")
+
+    if risky:
+        print("\nRisky clusters (worst by max prose-gap to canonical):")
+        def worst_gap(d):
+            cprose = len(d["canonical"]["prose"])
+            return max((len(lo["prose"]) - cprose) for lo in d["losers"]) if d["losers"] else 0
+        for d in sorted(risky, key=worst_gap, reverse=True):
+            gap = worst_gap(d)
+            print(f"  [{d['collection']}] {d['title']} (gap={gap})")
             for f in d["flags"]:
                 print(f"    - {f}")
 

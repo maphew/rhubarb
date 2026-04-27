@@ -13,6 +13,9 @@ waybackTimestamp: "20190630183338"
 
 Use Rhubarb to clean your pots and pans (no joke!) If your pots and pans are burnt, fear not! An application of rhubarb over the afflicted area will bring back the shine in next to no time. Environmentally friendly too!
 
+![Rheum palmatum](/_assets/7aaeccc82d15623c.jpg)
+*Rheum palmatum*
+
 ## Hair Color
 
 This is a fairly strong dye that can create a more golden hair color for persons whose hair is blond or light brown. Simmer 3 tbsp. of rhubarb root in 2 cups of water for 15 minutes, set aside overnight, and strain. Test on a few strands to determine the effect, then pour through the hair for a rinse.
@@ -47,6 +50,8 @@ The unused spray can be kept for a day or two, but keep your kids away its still
 
 James Grainger, is a British artist who specializes in oil paintings of Vicars and Morris Dancers in curious and surreal situations. Many of his paintings include rhubarb, as can be seen in the sample to the right. Be sure to visit his web page: [James Grainger's Gallery](http://www.regneag.demon.co.uk/)
 
+![Painting by James Grainger](/_assets/1bea58a20dc8261b.jpg)
+
 ### Music
 
 |  |  |
@@ -68,9 +73,15 @@ James Grainger, is a British artist who specializes in oil paintings of Vicars a
 
 The January 19 issue of SCIENCE Magazine reported that scientists have discovered a way to convert environmentally damaging chlorofluorocarbons (CFCs) such as Freon into four harmless components: sodium chloride (table salt), sodium fluoride (an ingredient used in toothpaste), carbon, and carbon dioxide. CFCs have been historically hard to destroy, because they are relatively inert. Professor Robert Crabtree and graduate student Juan Burdeniuc used sodium oxalate that is found in rhubarb leaves to destroy CFCs. (The article didn't mention if the researches actually got the sodium oxalate from rhubarb leaves or not but did mention that is where it is found).
 
+![Rhubarb Plant](/_assets/903b3272c39e54a8.jpg)
+*Rhubarb Plant*
+
 ### Rhubarb Paper
 
 Apparently the fiber in rhubarb is a nice additive to handmade papers. I have found several craft-folk selling or mentioning rhubarb-paper. Here is a sample from "BETH BAKER: Handmade Papers and Journals". 
+
+![Rhubarb Paper](/_assets/431a33fe52ee5b90.gif)
+*Rhubarb Paper*
 
 ---
 
